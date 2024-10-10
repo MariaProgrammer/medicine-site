@@ -338,6 +338,11 @@ button:active {
   color: var(--new-main);
    cursor: pointer;
 } 
+.service-item.active {
+  border: 1px solid var(--new-main);
+  color: var(--new-main);
+
+}
 .service-item--last {
   overflow: hidden;
   white-space: nowrap;

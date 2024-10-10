@@ -110,7 +110,7 @@ margin-bottom: 24px;
   
 }
 .article__button {
-  display: none;
+  display: block;
   border: 1px solid var(--new-main);
 border-radius: 6px;
 padding: 12px 24px;

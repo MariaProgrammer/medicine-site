@@ -7,11 +7,13 @@
 }
 
 @media (max-width: 959.20px) {
-  .article__button {
+  .article__navigation-mobile {
     display: block;
-    margin: 0 auto;
-    margin-top: 30px;
   }
+  .article__navigation-desctop {
+    display: none;
+  }
+  
   .article__cards {   
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
