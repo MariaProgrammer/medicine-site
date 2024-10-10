@@ -1,0 +1,63 @@
+.address {
+}
+
+.address__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin-bottom: 70px;
+}
+.address__inner-left {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.address__top--title {
+  padding-bottom: 30px;
+}
+
+.address__inner-contacts {
+}
+.address__contact {
+  display: grid;
+  grid-template-columns: 1fr 3fr 6fr;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.address__contact-img {
+  width: 32px;
+  height: 32px;
+}
+.address__contact-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.address__inner-contact {
+  align-self: center;
+  font-weight: 700;
+font-size: 16px;
+}
+
+.address__inner-text {
+  align-self: center;
+  font-weight: 400;
+font-size: 16px;
+}
+
+
+.address__inner-right {
+  width: 100%;
+ 
+
+}
+.adress__map {
+  flex: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

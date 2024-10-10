@@ -1,0 +1,49 @@
+.hero__subtitle {
+}
+.services__accordion {
+  margin-bottom: 70px;
+}
+.ramka-services {
+  border: 1px solid var(--light-gray);
+border-radius: 12px;
+padding: 14px 30px;
+}
+
+.services__accordion-item {
+  display: block;
+  display: flex;
+  padding: 29px 30px;
+  margin-bottom: 30px;
+}
+
+.services__accordion-item:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  color: var(--new-main);
+}
+.services__accordion-item:active {  
+  box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.services__accordion-item:last-child {
+  margin-bottom: 0;
+}
+.servicse__button {
+}
+
+.servicse__button-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.services__accordion-item--link {
+  margin-left: 30px;
+  
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.services__accordion-item--link:hover, .services__accordion-item--link:focus, .services__accordion-item--link:active {
+  cursor: pointer;
+  color: var(--new-main);
+}

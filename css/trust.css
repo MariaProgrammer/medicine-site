@@ -1,0 +1,142 @@
+.trust {
+}
+.swiper2 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 351px;
+  
+ 
+}
+.trust__inner {
+  width: 100%;
+  height: auto;
+  margin-bottom: 70px;
+  position: relative;
+  
+}
+.trust__title {
+  margin-bottom: 30px;
+  line-height: 140%;
+}
+
+.trust__inner-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 80px;
+  
+}
+.trust__inner-wrap--left {
+  flex: 1;
+  max-width: 530px;
+  width: 100%;
+  
+}
+
+
+.trust__inner-wrap--left video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+/* .trust__inner-wrap--left-img {
+  width: 100%;
+  border-radius: 12px; 
+  width: 530px;
+  height: 100%;
+  
+}
+  
+
+.trust__inner-wrap--left-img img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+} */
+.trust__inner-wrap--right {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  line-height: 150%;
+  
+}
+ 
+
+.trust__inner-wrap--title {
+  color: var(--txt-black);
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 21px;
+}
+.trust__inner-wrap--text {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+.trust__inner-wrap--result {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--txt-black);
+  padding-bottom: 70px;
+  
+  
+}
+.trust__buttons {
+  
+ position: absolute;
+ right: 30px;
+ bottom: 0;
+ z-index: 100;
+
+ 
+}
+.trust__button {
+  position: relative;
+  display: inline-block;
+  margin-left: 15px;
+  border: 1px solid var(--new-main);
+border-radius: 12px;
+width: 50px;
+height: 50px;
+}
+.trust__button svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.trust__button:hover {
+  background: var(--white);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+
+}
+.trust__button:active {
+  background: var(--white);
+  box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  
+}
+
+.trust__button-bottom {
+  display: none;
+}

@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+  .stocks__cards {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  
+}
+@media (max-width: 479px) {
+ 
+
+}
+

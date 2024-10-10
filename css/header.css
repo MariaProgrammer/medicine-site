@@ -1,0 +1,251 @@
+.header {
+  position: relative;
+}
+
+.nav__header {
+  
+}
+.header-logo {
+  display: block;
+}
+.nav__header-contacts {
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  
+}
+.linie__gray {
+  height: 1px;
+  background-color: var(--light-gray);
+}
+.nav__header-contacts--tel {
+  display: flex;
+  
+}
+.nav__header-top-icon-tel {
+  display: block;
+  width: 18px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.nav__header-top-icon-addr {
+  display: block;
+  width: 16px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.nav__header-contacts--text-tel {
+  font-size: 14px;  
+  font-weight: 600;
+}
+.nav__header-contacts--text-addr {
+  font-size: 14px;
+  font-weight: 500;
+}
+.nav__header-contacts--adress {
+  display: flex;
+}
+.nav__header-menu {
+  height: 105px;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;  
+}
+.nav__header-menu--burger{
+  border: 1px solid var(--new-main);
+  color: var(--new-main);
+  border-radius: 6px;
+  padding: 14px 10px;
+  width: 256px;
+  height: 74px;
+  display: none;  
+}
+
+.burger:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: var(--white);
+  color: var(--new-main);
+  
+}
+.burger.active {
+  color: #fff;
+  box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: var(--new-main);
+}
+
+.burger__button.active svg line{
+  fill: #fff;
+  stroke: #fff;
+}
+
+
+
+.nav__header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  
+}
+.nav__header-logo__img {
+  display: inline-block;
+  width: 60px;
+  object-fit: contain;
+}
+.nav__header-logo--text {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+}
+.logo__text-title {
+  display: inline-block;
+  font-family: var(--second-family), serif;
+  font-size: 44px;
+  color: var(--new-main);
+  margin-bottom: 3px;
+}
+.logo__text-subtitle {
+  display: inline-block;
+  font-family: var(--second-family), serif;
+  font-size: 14px;
+  color: var(--new-main);
+  letter-spacing: 0.03em;
+}
+.nav__header-menu--list {
+  max-width: 485px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__header-menu--item {
+  margin-right: 45px;
+  padding-bottom: 2px;
+  
+  
+}
+.nav__header-menu--item:hover, .nav__header-menu--item:focus, .nav__header-menu--item:active{
+  border-bottom: 2px solid var(--new-main);
+  color: var(--new-main);
+
+}
+.nav__header-menu--item:last-child {
+  margin-right: 0;
+}
+.nav__header-menu--link {
+}
+.blank--link {
+  cursor: default;
+}
+.nav__header-menu--grade {
+  width: 262px;
+  max-height: 74px;
+  padding: 13px 25px;
+  border: 1px solid var(--accent-red);
+  border-radius: 6px;
+}
+.grade__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+.grade__header-serv {
+  display: block;
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+.grade__header-star {
+  width: 23px;
+  height: 23px;
+  display: block;
+  object-fit: contain;
+}
+
+.grade__header--text {
+  font-size: 14px;
+
+}
+.grade__header--cifra {
+  font-weight: 700;
+}
+.grade__bottom {
+ line-height: 1.5;
+font-size: 14px;
+color: var(--gray);
+text-align: center;
+}
+
+.nav__header-menu--burger--text {
+  margin-right: 30px;
+  
+  
+}
+
+
+
+.nav__shadow {
+  height: 4px;
+  background-color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+.header-link__item {
+}
+.header-link__item-title {
+}
+.header-link__link {}
+
+
+
+
+.header-link__wrap {
+  
+  max-width: 1140px;
+  margin: 0 auto; 
+  padding: 23px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 50px;
+  row-gap: 24px;
+  border-radius: 6px;
+  box-shadow: -1px 1px 8px 0px rgba(0, 0, 0, 0.25);
+  background: var(--white);
+  position: relative;
+  overflow: visible;
+  display: none;
+  
+}
+.header__link__poligon-wrap {
+  position: absolute;
+  width: 62px;
+  height: 24px;
+  left: 440px;
+  top:-24px;
+  
+}
+
+.header-link--poligon svg{
+  fill: var(--white);
+  box-shadow: 0 -4px 4px 0 var(--light-gray);
+  
+}
+.header-link__menu {
+  display: flex;
+  flex-direction: column;
+}

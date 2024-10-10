@@ -1,0 +1,87 @@
+.thanks__popup {
+   display: none;
+   position: absolute;
+   width: 100vw;
+   height: 100vh;
+   z-index: 1500;
+}
+.thanks__popup-inner {  
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(45, 44, 44, 0.6);
+  z-index: 500;
+  position: relative;
+}
+.thanks__popup-main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 6px;
+  width: 600px;
+  height: 160px;
+  box-shadow: 0 -4px 4px 0 var(--light-gray);
+  background: white;
+  padding: 47px 0;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  z-index: 800;
+}
+.thanks__popup-title {
+  font-weight: 600;
+font-size: 16px;
+text-align: center;
+color: var(--txt-black);
+margin-bottom: 24px;
+z-index: 900;
+}
+.thanks__popup-text {
+  font-weight: 400;
+font-size: 14px;
+text-align: center;
+color: var(--txt-black);
+z-index: 900;
+}
+.thanks__popup-button {
+  width: 40px;
+  height: 40px;  
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(50%, 50%);
+  -webkit-transform: translate(50%, -50%);
+  -moz-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  -o-transform: translate(50%, 50%);
+  background: url('../img/cross.png');
+  background-repeat: no-repeat;
+  z-index: 900;
+}
+
+.thanks__popup-button:hover {
+  background: url('../img/cross__hover.png');  
+}
+.thanks__popup-button:active {
+  background: url('../img/cross__active.png') no-repeat;
+  
+}
+
+.thanks__popup.active {
+  display: block;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1500;
+  
+}

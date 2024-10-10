@@ -1,0 +1,116 @@
+.hover-menu {
+  display: none;
+  width: 100%;
+  max-width: 1140px;
+  position: absolute;
+  left: 50%;
+  top: -28px;
+  z-index: 50;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.hover-menu__inner {  
+  padding: 32px;
+box-shadow: 1px 1px 8px 2px var(--light-gray);
+border-radius: 6px;
+width: 100%;
+height: auto;
+position: relative;
+background: #fff;
+}
+
+.hover-menu__svg {
+  position: absolute;
+  top: -32px;
+  left: 30%;
+  z-index: 50;
+}
+
+.hover-menu__svg path{
+  fill: var(--white);
+  box-shadow: 0 -4px 4px 0 var(--light-gray);
+}
+
+.hover-menu__cross {
+  width: 40px;
+  height: 40px;  
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(50%, 50%);
+  -webkit-transform: translate(50%, -50%);
+  -moz-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  -o-transform: translate(50%, 50%);
+  background: url('../img/cross.png');
+  background-repeat: no-repeat;
+}
+.hover-menu__cross:hover {
+  background: url('../img/cross__hover.png');  
+}
+.hover-menu__cross:active {
+  background: url('../img/cross__active.png') no-repeat;
+  
+}
+
+.footer-menu__cross .active {
+  
+}
+
+
+
+.hover-menu__cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 50px;
+  row-gap: 24px;
+}
+.hover-menu__card {
+}
+.hover-menu__list {
+}
+.hover-menu__item {
+  font-weight: 400;
+font-size: 14px;
+margin-bottom: 6px;
+}
+
+.hover-menu__item:hover, .hover-menu__item:focus, .hover-menu__item:active {
+  color: var(--new-main);
+  cursor: pointer;
+}
+.hover-item__title {
+  font-weight: 600;
+font-size: 16px;
+margin-bottom: 6px;
+}
+.hover-menu__link {
+
+}
+
+.hover-menu.active {
+  display: block;
+}
+.reviews__inner--otzyvy {
+  position: relative;
+}
+
+.hover-menu__otzyvy {
+  position: absolute;
+  
+  top: 3px;
+}
+
+.otzyvy-top {
+  padding: 32px 0;
+}
+
+.hover-menu__otzyvy-top {
+  top:-81px
+}

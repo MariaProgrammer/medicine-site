@@ -1,0 +1,243 @@
+.vrachi__hover-menu {
+  top: 3px;
+}
+.submenu {
+}
+.submenu__inner {
+  padding: 32px 0 16px 0;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  
+}
+
+.submenu-list-item {
+  border: 1px solid var(--gray);
+  border-radius: 6px;
+  padding: 2px 4px 4px 4px;
+  /* min-width: 75px; */
+  /* height: 22px; */
+  text-align: center;
+  margin-right: 6px;
+  color: var(--gray);
+  font-weight: 400;
+  font-size: 13px;
+}
+.submenu-list-item:hover,
+.submenu-list-item:focus,
+.submenu-list-item:active {
+  border: 1px solid var(--new-main);
+  color: var(--new-main);
+}
+.submenu-list-item-lastchild {
+  border: 1px solid var(--new-main);
+  color: var(--new-main);
+
+}
+.service-item { 
+  flex: 0 1 auto;
+  white-space: nowrap;
+   
+}
+.service-item--last {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border: 1px solid var(--new-main);
+  color: var(--new-main);  
+  
+}
+
+
+.vrachi__inner {  
+  margin-bottom: 70px;
+}
+.vrachi__cards {
+}
+.vrachi__card-title {
+  font-weight: 600;
+font-size: 34px;
+margin-bottom: 30px;
+line-height: 120%;
+}
+.vrachi__card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 30px;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.vrachi__card-left {
+  flex: 1 0 262px;
+  width: 262px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.vrachi__card-left img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.vrachi__button {
+  width: 60px;
+  height: 80px;
+  border: none;
+
+}
+
+.vrachi__card-subtitle {
+  font-weight: 600;
+font-size: 20px;
+margin-bottom: 10px;
+}
+.vrachi__card-linie {
+  width: 100%;
+  height: 2px;
+  background-color: var(--new-main);
+  margin-bottom: 10px;
+}
+.vrachi__card-text {
+  font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+}
+.text-right {
+  margin-bottom: 30px;
+}
+.vrachi__card-right {
+  max-width: 748px;
+  width: 100%;
+  position: relative;
+}
+.vrachi__card-certificate {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+ 
+  gap: 12px;
+}
+.card-certificate-img {
+  display: block;
+  width: 500px;
+  height: auto;
+  object-fit: contain;
+  transition: transform ease 0.5s;
+  -webkit-transition: transform ease 0.5s;
+  -moz-transition: transform ease 0.5s;
+  -ms-transition: transform ease 0.5s;
+  -o-transition: transform ease 0.5s;
+}
+.card-certificate-img.active {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+}
+.vrachi__card-certificate-959 {
+  display: none;
+}
+.card-certificate-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.vrachi__button {
+  margin-left: 0;
+}
+.top-button__cross {
+  position: absolute;
+ 
+  top: 15px;
+ 
+  height: 100px;
+  z-index: 3000;
+}
+.window-button--lupa {
+  position: absolute;
+  right: 50px;
+  top: -3px;
+  width: 40px;
+  height: 40px;
+  z-index: 3010;
+}
+
+.vrachi-window__cross {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  z-index: 3010;
+  
+}
+.vrachi-window {
+  width: 100vw;
+  height: auto;
+  position: relative;
+}
+.vrachi-window1 {
+}
+.vrachi-window__wrap {
+  display: none;
+  position: fixed;
+  
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: auto;
+  overflow-y: auto;
+  background: rgba(0, 0, 0, .8);
+
+}
+.vrachi-window__inner {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  max-width: 500px;
+  /* background: #fff; */
+  z-index: 1000;
+ 
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.vrachi-window__inner.active {
+  max-width: 80%;
+  height: auto;
+}
+
+.btn-reset {
+}
+.hover-menu__img {
+}
+.window-button--lupa {
+}
+
+.vrachi-window__wrap.active {
+  display: block;
+}
+

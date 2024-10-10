@@ -1,0 +1,27 @@
+.nav-burger {
+}
+.nav__burger--list {
+  padding: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+}
+.nav__burger--item {
+  color: #fff;
+  margin-bottom: 25px;
+  
+}
+.nav__burger--item:last-child {
+  margin-bottom: 0;
+
+}
+
+.nav__burger--item:focus, .nav__burger--item:active {
+  border-bottom: 2px solid #fff;
+}
+.nav__burger--link {
+  font-size: 16px;
+  font-weight: 500;
+ 
+}

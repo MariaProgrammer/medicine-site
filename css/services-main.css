@@ -1,0 +1,261 @@
+/* hero */
+.hero__inner-wrap {
+  margin-bottom: 70px;
+  margin-top: 32px;
+}
+.hero__subtitle-container {
+  display: flex;
+}
+
+.service-hero__subtitle {
+  max-width: 343px;
+  margin-bottom: 64px;
+}
+
+.service-item {
+  padding: 2px 4px;
+  height: auto;
+  width: auto;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  box-shadow: none;
+  
+  
+}
+.service-item--last {
+  color: var(--new-main);
+  border: 1px solid var(--new-main);
+}
+.hero__inner--services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.hero__ramka-services {
+ /* display: flex;
+ flex-direction: column; */
+ max-width: 620px;
+ /* align-self: flex-start; */
+ margin-top: 12px;
+  
+
+}
+.hero__ramka-links {
+  display: flex;
+  
+}
+.hero__inner-right--services {
+  max-width: 430px;
+  padding: 0px 60px;
+}
+.right-services__img {
+  display: block;
+  width: 310px;
+  height: 292px;
+  object-fit: cover;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+/* .service-descr {
+  max-width: 550px;
+} */
+.service-title {
+  font-weight: 600;
+  line-height: 140%;
+
+font-size: 16px;
+color: var(--txt-black);
+margin-bottom: 20px;
+}
+.service-list {
+  padding: 0;
+  padding-left: 18px;
+  margin: 0;
+  
+
+}
+.services__text {
+  /* max-width: 620px; */
+  font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+color: var(--txt-black);
+margin-bottom: 60px;
+}
+
+.service-text {
+  font-weight: 600;
+font-size: 16px;
+color: var(--txt-black);
+line-height: 150%;
+margin-bottom: 12px;
+}
+.service-sublist {
+  list-style-type: "- ";
+}
+.service-subtext {
+  font-size: 16px;
+color: var(--txt-black);
+line-height: 150%;
+  font-weight: 400;
+}
+.service-form {
+  margin-bottom: 10px;
+}
+.service-text--udalenie {
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+.service-subtext--udalenie {
+  margin-top: 20px;
+}
+
+.service-title--restavracia {
+  font-weight: 600;
+font-size: 20px;
+color: var(--txt-black);
+line-height: 140%;
+margin-bottom: 0;
+
+}
+
+.service-title--restavracia-small {
+  font-weight: 600;
+font-size: 16px;
+color: var(--txt-black);
+line-height: 140%;
+margin-top: 20px;
+margin-bottom: 0;
+
+}
+.service-subtext--protezirovanie {
+  margin-top: 20px;
+}
+
+
+/* ABOUT */
+.about__service {
+}
+.container {
+}
+.about__service__inner {
+  margin-bottom: 70px;
+}
+.about__service__title {
+  margin-bottom: 32px;
+}
+.title {
+}
+.about__service__wrap {
+}
+.ramka {
+}
+.about__service-text {
+  font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+margin-bottom: 30px;
+}
+.about__service-text:last-of-type {
+  margin-bottom: 0;
+}
+/* Price */
+
+.price {
+}
+.container {
+}
+.price__inner {
+  margin-bottom: 70px;
+}
+.price__inner__title {
+  margin-bottom: 30px;
+}
+
+.price-first {
+  margin-bottom: 32px;
+}
+.price-item--star-first{
+  display: flex;
+  font-weight: 400;
+font-size: 16px;
+color: var(--new-main);
+margin-bottom: 30px;
+
+
+}
+.price-item--star-left {
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.price-item--star-left:hover, .price-item--star-left:active {
+  cursor: pointer;
+  color: var(--new-main)
+}
+.price-item--star {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.price-item--star:last-child {
+  margin-bottom: 0;
+}
+.price-item__title {
+  
+}
+.price-item__img {
+  display: block;
+  width: 10px;
+  height: 17px;
+  object-fit: contain;
+
+}
+.price-item {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+font-size: 16px;
+margin-bottom: 30px;
+}
+
+.price-item:last-child {
+  margin-bottom: 0;
+}
+.price-item__text {
+  font-weight: 400;
+font-size: 16px;
+padding-left: 30px;
+}
+.price-item__text-star {
+  font-weight: 400;
+font-size: 16px;
+
+}
+.price-item__tsena {
+  font-weight: 700;
+font-size: 16px;
+color: var(--new-main);
+}
+.price-item__link {
+  font-weight: 700;
+font-size: 16px;
+color: var(--new-main);
+}
+.price-item__link:hover, .price-item__link:active {
+  text-decoration: underline;
+}
+.fa-star {
+  color: var(--red);
+  font-size: 12px;
+  padding-right: 12px;
+}

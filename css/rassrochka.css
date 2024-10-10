@@ -1,0 +1,26 @@
+.rassrochka__inner {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.rassrochka__title {
+  margin-bottom: 32px;
+
+}
+.rassrochka__text {
+  font-weight: 400;
+font-size: 16px;
+color: var(--txt-black);
+line-height: 140%;
+margin-bottom: 20px;
+}
+.rassrochka__list {
+  margin-bottom: 20px;
+}
+li.rassrochka__text {
+  list-style-type: disc;
+  margin-left: 15px;
+  margin-bottom: 4px;
+}
+.text-margin {
+  margin-bottom: 4px;
+}

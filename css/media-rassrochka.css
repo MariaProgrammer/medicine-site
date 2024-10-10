@@ -1,0 +1,25 @@
+@media (max-width: 767.20px) {
+  .ramka {
+    border: none;
+    
+  }
+  .rassrochka__inner {
+    padding: 0;
+    margin-bottom: 60px;
+  }
+  
+
+}
+
+@media (max-width: 479.20px) {
+  .rassrochka__title {
+    font-size: 24px;
+  }
+  .rassrochka__text {
+    font-size: 14px;
+  }
+  .rassrochka__inner {
+    
+    margin-bottom: 32px;
+  }
+}
