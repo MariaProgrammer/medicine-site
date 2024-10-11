@@ -12,9 +12,7 @@
 .article__title {
   margin-bottom: 32px;
 }
-.submenu__inner {
-  position: relative;
-}
+
 .hover-menu--article {  
   top: 3px;
 }

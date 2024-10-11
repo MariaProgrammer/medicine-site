@@ -22,13 +22,22 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .vrachi__card-certificate-969 {
-    margin-top: 0;
+  .vrachi__card-certificate-959 {
+    display: none;
+    margin: 0;
   }
   .ramka-none {
     padding: 0;
     border: none;
   }
+  .vrachi__card-certificate-767 {
+    display: block;
+  }
+  .text-right {
+    margin-bottom: 0;
+  }
+  
+
 }
 
 @media (max-width: 479.20px) {

@@ -15,12 +15,6 @@ const footerMenuCross = document.querySelector('.footer-menu__cross');
 const footerBurgerMenu = document.querySelector('.footer__burger-menu');
 const footerBurger = document.querySelector('.footer-burger__button');
 
-
-
-
-
-
-
 burger.addEventListener("click", () => {
 	burgerMenu.classList.toggle('active');
 	burgerButton.classList.toggle('active');    

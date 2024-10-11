@@ -358,3 +358,65 @@ button:active {
   margin-right: 30px;
   margin-bottom: 15px;
 }
+
+.submenu-list-item {
+  border: 1px solid var(--gray);
+  border-radius: 6px;
+  padding: 2px 4px 4px 4px;
+  /* min-width: 75px; */
+  /* height: 22px; */
+  text-align: center;
+  margin-right: 6px;
+  color: var(--gray);
+  font-weight: 400;
+  font-size: 13px;
+}
+.submenu-list-item:hover,
+.submenu-list-item:focus,
+.submenu-list-item:active {
+  border: 1px solid var(--new-main);
+  color: var(--new-main);
+}
+.submenu-list-item-lastchild {
+  border: 1px solid var(--new-main);
+  color: var(--new-main);
+
+}
+
+.submenu__inner {
+  padding-top: 38px;
+  padding-bottom: 18px;
+  position: relative;
+}
+
+.swiper-button--lupa {
+  position: absolute;
+  right: 70px;
+  top: 15px;
+  width: 40px;
+  height: 40px;
+  z-index: 900;
+}
+.swiper-button--cross {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 40px;
+  height: 40px;
+  background: url('../img/cross.png');
+  background-repeat: no-repeat;
+  z-index: 1100;
+}
+
+.swiper-button--cross:hover {
+  background: url('../img/cross__hover.png');
+  background-repeat: no-repeat;
+  z-index: 900;
+
+}
+.swiper-button--cross:active {
+  background: url('../img/cross__active.png');
+  background-repeat: no-repeat;
+  z-index: 900;
+
+}

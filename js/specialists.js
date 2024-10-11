@@ -1,7 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const specialistWindow = document.querySelector('.vrachi-window__wrap');
+
+ const specialistWindow = document.querySelector('.vrachi-window__wrap');
 const specialistWindowCross = document.querySelector('.vrachi-window__cross');
 const elem = document.querySelector('.vrachi-window__inner');
+
 
 const buttonKrainov1 = document.querySelector('.krainov-btn1')
 const buttonKrainov2 = document.querySelector('.krainov-btn2')
@@ -97,8 +99,7 @@ const buttonNikolaeva9s = document.querySelector('.nikolaeva-btn9s')
 
 
 
-specialistWindowCross.addEventListener('click', () => {
-  
+specialistWindowCross.addEventListener('click', () => {  
 	specialistWindow.classList.remove('active');
   location.reload()
 });
@@ -107,7 +108,7 @@ specialistWindowCross.addEventListener('click', () => {
 
 
 function openGramota(buttonSelector, name, n, file='png'){
-  let gramota = `.krainov-btn${n}`
+  // let gramota = `.krainov-btn${n}`
   const lupa = document.querySelector('.window-button--lupa');
   buttonSelector.addEventListener('click', ()=> {
     specialistWindow.classList.add('active');
@@ -227,7 +228,69 @@ openGramota(buttonNikolaeva7s,'nastya', 7);
 openGramota(buttonNikolaeva8s,'nastya', 8);
 openGramota(buttonNikolaeva9s,'nastya', 9);
 
+// const swiperSertificateInner = document.querySelector('.swiper-sertificate1--inner')
+// const swiperKrainovbtns = document.querySelectorAll('.krainov-btn')
+
+// const crossKrainov = document.querySelector('.swiper-button--cross-krainov')
+
+// crossKrainov.addEventListener('click', () => {  
+// 	specialistWindow.classList.remove('active');
+//   location.reload()
+// });
+
+
+			
+			
+
+// 			const openSertificate = (triggerSelector, modalDataSelector) => {
+// 				// const trigger = document.querySelectorAll(triggerSelector)
+// 				// console.log(trigger);
+				
+// 				// const modal = document.querySelector(modalDataSelector)
+// 				if (!triggerSelector || !modalDataSelector) return
+// 				triggerSelector.forEach(b => b.addEventListener('click', closeParentBlock));
+				
+				
+// 				function closeParentBlock(e) {
+// 					e.preventDefault()
+// 					modalDataSelector.classList.add('active')
+// 				}
+// 			}
+// 			openSertificate(swiperKrainovbtns, swiperSertificateInner);
+
+const swiperSertificate1Inner = document.querySelector('.swiper-sertificate1--inner')
+			const krainovBtns = document.querySelectorAll('.krainov-btn')
+			const crossKrainov = document.querySelector('.swiper-button--cross-krainov')
+						
+	
+
+			const openModal = (triggerSelector, modalDataSelector) => {
+				// const trigger = document.querySelectorAll(triggerSelector)
+				// console.log(trigger);
+				
+				// const modal = document.querySelector(modalDataSelector)
+				if (!triggerSelector || !modalDataSelector) return
+				triggerSelector.forEach(b => b.addEventListener('click', closeParentBlock));
+				
+				
+				function closeParentBlock(e) {
+					e.preventDefault()
+					modalDataSelector.classList.add('active')
+				}
+			}
+			openModal(krainovBtns, swiperSertificate1Inner);
+			
+			
+			crossKrainov.addEventListener('click', () => {
+				swiperSertificate1Inner.classList.remove('active');
+				location.reload()
+			});
+
+			
+
 })
+
+
 
 
 
@@ -262,23 +325,38 @@ openGramota(buttonNikolaeva9s,'nastya', 9);
 // });
 
 
-// const swiper5 = new Swiper('.swiper5', {
-//   direction: 'horizontal',
-//   loop: true,
-//   slidesPerView: 1,
-//   spaceBetween: 15,	
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
+const swiperSertificate1 = new Swiper('.swiper__card-sertificate1', {
+  direction: 'horizontal',
+  loop: true,
+  slidesPerView: 5,
+  spaceBetween: 30,	
+  navigation: {
+    nextEl: '.swiper-button-next--sert1',
+    prevEl: '.swiper-button-prev--sert1',
+  },
+  breakpoints: {
+    // when window width is >= 320px
+		320: {
+      slidesPerView: 4,
+      spaceBetween: 12
+    },
+   
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 5,
+      spaceBetween: 30
+    }
+  },
   
   // pagination:	{
   // 	el: '.swiper-pagination',
   // 	clickable: true,
   // },
-//   mousewhell: true,
-//   keyboard: true,
-//   });
+  mousewhell: true,
+  keyboard: true,
+  });
+
+
 // const swiper6 = new Swiper('.swiper6', {
 //   direction: 'horizontal',
 //   loop: true,
