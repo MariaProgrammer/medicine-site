@@ -7,12 +7,12 @@
 }
 
 @media (max-width: 959.20px) {
-  .article__navigation-mobile {
+  /* .article__navigation-mobile {
     display: block;
   }
   .article__navigation-desctop {
     display: none;
-  }
+  } */
   
   .article__cards {   
     grid-template-columns: repeat(2, 1fr);
@@ -39,12 +39,12 @@
   .article__card-img-wrap {
     height: 334px;
   }
-  .article__card--more{
+  /* .article__card--more{
     display: none;
   }
   .article__card--more.active {
     display: block;
-  }
+  } */
 }
 @media (max-width: 479.20px) {
   .article__card-img-wrap {
