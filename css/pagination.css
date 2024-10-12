@@ -57,12 +57,7 @@ margin-bottom: 18px;
   font-size: inherit;
   color: inherit;
 }
-.article__card--more{
-  display: none;
-}
-.article__card--more.active {
-  display: block;
-}
+
 
 
 .article__navigation-mobile {
@@ -82,6 +77,12 @@ margin-bottom: 18px;
   }
   .article__navigation-desctop {
     display: none;
+  }
+  .article__card--more{
+    display: none;
+  }
+  .article__card--more.active {
+    display: block;
   }
   
 }
