@@ -259,8 +259,14 @@ openGramota(buttonNikolaeva9s,'nastya', 9);
 // 			openSertificate(swiperKrainovbtns, swiperSertificateInner);
 
 const swiperSertificate1Inner = document.querySelector('.swiper-sertificate1--inner')
+const swiperSertificate2Inner = document.querySelector('.swiper-sertificate2--inner')
+const swiperSertificate3Inner = document.querySelector('.swiper-sertificate3--inner')
 			const krainovBtns = document.querySelectorAll('.krainov-btn')
+			const molyavkoBtns = document.querySelectorAll('.molyavko-btn-1slide')
+			const karachevaBtns3s = document.querySelectorAll('.karacheva-btn-1s')
 			const crossKrainov = document.querySelector('.swiper-button--cross-krainov')
+			const crossMolyavko = document.querySelector('.swiper-button--cross-molyavko')
+			const crossKaracheva = document.querySelector('.swiper-button--cross-karacheva')
 						
 	
 
@@ -279,51 +285,23 @@ const swiperSertificate1Inner = document.querySelector('.swiper-sertificate1--in
 				}
 			}
 			openModal(krainovBtns, swiperSertificate1Inner);
+			openModal(molyavkoBtns, swiperSertificate2Inner);
+			openModal(karachevaBtns3s, swiperSertificate3Inner);
 			
 			
 			crossKrainov.addEventListener('click', () => {
 				swiperSertificate1Inner.classList.remove('active');
 				location.reload()
 			});
-
-			
-
+			crossMolyavko.addEventListener('click', () => {
+				swiperSertificate3Inner.classList.remove('active');
+				location.reload()
+			});
+			crossKaracheva.addEventListener('click', () => {
+				swiperSertificate3Inner.classList.remove('active');
+				location.reload()
+			});
 })
-
-
-
-
-
-
-
-
-
-// const openModal = (triggerSelector, modalDataSelector) => {
-//   // const trigger = document.querySelectorAll(triggerSelector)
-//   // console.log(trigger);
-  
-//   // const modal = document.querySelector(modalDataSelector)
-//   if (!triggerSelector || !modalDataSelector) return
-//   triggerSelector.forEach(b => b.addEventListener('click', closeParentBlock));
-  
-  
-//   function closeParentBlock(e) {
-//     e.preventDefault()
-//     modalDataSelector.classList.add('active')
-//   }
-// }
-// openModal(specialistButtons, specialistWindow);
-// openModal(specialistButtons2, specialistWindow2);
-// openModal(specialistButtons3, specialistWindow3);
-
-
-// specialistWindowCross2.addEventListener('click', () => {
-// 	specialistWindow2.classList.remove('active');
-// });
-// specialistWindowCross3.addEventListener('click', () => {
-// 	specialistWindow3.classList.remove('active');
-// });
-
 
 const swiperSertificate1 = new Swiper('.swiper__card-sertificate1', {
   direction: 'horizontal',
@@ -333,6 +311,67 @@ const swiperSertificate1 = new Swiper('.swiper__card-sertificate1', {
   navigation: {
     nextEl: '.swiper-button-next--sert1',
     prevEl: '.swiper-button-prev--sert1',
+  },
+  breakpoints: {
+    // when window width is >= 320px
+		320: {
+      slidesPerView: 4,
+      spaceBetween: 12
+    },
+   
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 5,
+      spaceBetween: 30
+    }
+  },
+  
+  // pagination:	{
+  // 	el: '.swiper-pagination',
+  // 	clickable: true,
+  // },
+  mousewhell: true,
+  keyboard: true,
+  });
+
+  const swiperSertificate2 = new Swiper('.swiper__card-sertificate2', {
+  direction: 'horizontal',
+  loop: true,
+  slidesPerView: 5,
+  spaceBetween: 30,	
+  navigation: {
+    nextEl: '.swiper-button-next--sert2',
+    prevEl: '.swiper-button-prev--sert2',
+  },
+  breakpoints: {
+    // when window width is >= 320px
+		320: {
+      slidesPerView: 4,
+      spaceBetween: 12
+    },
+   
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 5,
+      spaceBetween: 30
+    }
+  },
+  
+  // pagination:	{
+  // 	el: '.swiper-pagination',
+  // 	clickable: true,
+  // },
+  mousewhell: true,
+  keyboard: true,
+  });
+  const swiperSertificate3 = new Swiper('.swiper__card-sertificate3', {
+  direction: 'horizontal',
+  loop: true,
+  slidesPerView: 5,
+  spaceBetween: 30,	
+  navigation: {
+    nextEl: '.swiper-button-next--sert3',
+    prevEl: '.swiper-button-prev--sert3',
   },
   breakpoints: {
     // when window width is >= 320px

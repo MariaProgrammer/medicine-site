@@ -252,11 +252,11 @@ line-height: 140%;
   justify-content: center;
   margin-top: 24px;
 }
-.swiper-button-prev--sert1 {
+.swiper-button-prev--sert1,.swiper-button-prev--sert2, .swiper-button-prev--sert3 {
   margin-right: 30px;
 }
 
-.swiper-sertificate1--inner {
+.swiper-sertificate1--inner,.swiper-sertificate2--inner, .swiper-sertificate3--inner {
   opacity: 0;
   position: fixed;
   left: 0;
@@ -275,6 +275,14 @@ line-height: 140%;
 }
 
 .swiper-sertificate1--inner.active {
+  opacity: 1;
+  z-index: 1000;
+}
+.swiper-sertificate2--inner.active {
+  opacity: 1;
+  z-index: 1000;
+}
+.swiper-sertificate3--inner.active {
   opacity: 1;
   z-index: 1000;
 }
@@ -297,6 +305,52 @@ line-height: 140%;
 
 }
 .swiper-button--cross-krainov:active {
+  background: url('../img/cross__active.png');
+  background-repeat: no-repeat;
+  z-index: 900;
+
+}
+.swiper-button--cross-molyavko {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 40px;
+  height: 40px;
+  background: url('../img/cross.png');
+  background-repeat: no-repeat;
+  z-index: 1100;
+}
+
+.swiper-button--cross-molyavko:hover {
+  background: url('../img/cross__hover.png');
+  background-repeat: no-repeat;
+  z-index: 900;
+
+}
+.swiper-button--cross-molyavko:active {
+  background: url('../img/cross__active.png');
+  background-repeat: no-repeat;
+  z-index: 900;
+
+}
+.swiper-button--cross-karacheva {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 40px;
+  height: 40px;
+  background: url('../img/cross.png');
+  background-repeat: no-repeat;
+  z-index: 1100;
+}
+
+.swiper-button--cross-karacheva:hover {
+  background: url('../img/cross__hover.png');
+  background-repeat: no-repeat;
+  z-index: 900;
+
+}
+.swiper-button--cross-karacheva:active {
   background: url('../img/cross__active.png');
   background-repeat: no-repeat;
   z-index: 900;

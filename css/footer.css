@@ -332,7 +332,7 @@ margin-bottom: 4px;
 .footer__swiper--img {
   opacity: 1;
   display: block;
-  width: auto;
+  width: 70vw;
   height: 100vh;
   margin: 0 auto;
   object-fit: contain;
@@ -433,6 +433,9 @@ margin-bottom: 4px;
 }
 
 .footer-swiper-slide {
+  overflow: auto !important;
+}
+.karacheva-swiper-slide {
   overflow: auto !important;
 }
 
