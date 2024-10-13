@@ -395,7 +395,8 @@ const swiperSertificate1 = new Swiper('.swiper__card-sertificate1', {
   keyboard: true,
   });
 
-
+  
+  
 // const swiper6 = new Swiper('.swiper6', {
 //   direction: 'horizontal',
 //   loop: true,
