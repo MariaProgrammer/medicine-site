@@ -44,8 +44,11 @@
   font-weight: 600;
 }
 .nav__header-contacts--text-addr {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
+}
+.nav__header-contacts--text-addr:hover, .nav__header-contacts--text-addr:active {
+  color: var(--new-main);
 }
 .nav__header-contacts--adress {
   display: flex;
@@ -175,7 +178,8 @@
 }
 
 .grade__header--text {
-  font-size: 14px;
+  font-weight: 400;
+font-size: 14px;
 
 }
 .grade__header--cifra {

@@ -195,13 +195,7 @@
     width: 16px;
     height: 16px;
   }
-  .ratings__inner-link {
-    font-weight: 400;
-    font-size: 13px;
-  }
-  .hero__link span {
-    display: none;
-  }
+    
   .ramka-trust {
     padding: 30px 60px;
   }
@@ -264,9 +258,7 @@
   .nav__header-top-icon-tel, .nav__header-top-icon-addr {
     width: 16px;
   }
-  .nav__header-contacts--text-tel, .nav__header-contacts--text-tel {
-    font-size: 12px;
-  }
+  
   .hero__ramka {
     display: none;
   }
