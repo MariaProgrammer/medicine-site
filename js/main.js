@@ -67,7 +67,7 @@ hoverMenuCross.addEventListener("click", () => {
 //Popup
 footerPopupButton.addEventListener('click', () => {
 	footerPopup.remove('active');
-	location.reload()
+	// location.reload()
 })
 
 	footerPopup.addEventListener("mouseover", () => {	
@@ -304,7 +304,7 @@ const swiper1 = new Swiper('.swiper1', {
 			
 			footerWindowCross.addEventListener('click', () => {
 				swiperFooterWindow.classList.remove('active');
-				location.reload()
+				// location.reload()
 			});
 
 			footerBtnLupa.addEventListener('click', () => {

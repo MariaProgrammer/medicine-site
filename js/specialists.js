@@ -95,48 +95,32 @@ const buttonNikolaeva7s = document.querySelector('.nikolaeva-btn7s')
 const buttonNikolaeva8s = document.querySelector('.nikolaeva-btn8s')
 const buttonNikolaeva9s = document.querySelector('.nikolaeva-btn9s')
 
-
-
-
-
-specialistWindowCross.addEventListener('click', () => {  
-	specialistWindow.classList.remove('active');
-  location.reload()
-});
-
-
-
-
+const lupa = document.querySelector('.window-button--lupa');
 function openGramota(buttonSelector, name, n, file='png'){
-  // let gramota = `.krainov-btn${n}`
-  const lupa = document.querySelector('.window-button--lupa');
+  
+  
   buttonSelector.addEventListener('click', ()=> {
     specialistWindow.classList.add('active');
     let img = `<img src="img/doctors/gramoty_${name}/${n}.${file}" class="card-certificate-img" width="500" height="auto">`;
     elem.innerHTML= img;
-    lupa.addEventListener('click', ()=> {      
-      elem.classList.toggle('active');
+    lupa.addEventListener('click', ()=> {
+      if(elem.classList.contains('active')) {
+        elem.classList.remove('active');
+      } else {
+        elem.classList.add('active');
+      }      
+      
+    });
+    specialistWindowCross.addEventListener('click', () => {
+      specialistWindow.classList.remove('active');
+      elem.innerHTML = ``;  
+      specialistWindow.classList.remove('active');
+      
     });
     
       
   });
 }
-
-// function getName (n) {
-  
-//   let gramota = `.krainov-btn${n}`;
-//   openGramota(gramota, 'ilya', n);
-  
-// }
-
-// function openGramotaIlya() {
-  
-//   for (i=1; i<20; i++) {
-//     getName(i);     
-
-//   }  
-// }
-// openGramotaIlya()
 
 openGramota(buttonKrainov1, 'ilya', 1);
 openGramota(buttonKrainov2,'ilya', 2);
@@ -291,15 +275,15 @@ const swiperSertificate3Inner = document.querySelector('.swiper-sertificate3--in
 			
 			crossKrainov.addEventListener('click', () => {
 				swiperSertificate1Inner.classList.remove('active');
-				location.reload()
+				// location.reload()
 			});
 			crossMolyavko.addEventListener('click', () => {
 				swiperSertificate3Inner.classList.remove('active');
-				location.reload()
+				// location.reload()
 			});
 			crossKaracheva.addEventListener('click', () => {
 				swiperSertificate3Inner.classList.remove('active');
-				location.reload()
+				// location.reload()
 			});
 })
 

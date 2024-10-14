@@ -51,6 +51,27 @@ h4 {
 
 @font-face {
   font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular_1.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-SemiBold_1.woff") format("woff");
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/Play-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
   src: url("../fonts/OpenSans-Regular.woff2") format("woff2");
   font-display: swap;
   font-weight: 400;
@@ -63,6 +84,8 @@ h4 {
   font-weight: 600;
   font-style: normal;
 }
+
+
 @font-face {
   font-family: "Open Sans";
   src: url("../fonts/OpenSans-Bold.woff2") format("woff2");
@@ -101,8 +124,8 @@ h4 {
 
   /* --h1-title: 28px; */
   --h1-title: calc(18px + 12 * (100vw - 320px) / 1600);
-  --font-family: "Open Sans", sans-serif;
-  --second-family: "Play", sans-serif;
+  --font-family: "Open Sans";
+  --second-family: "Play";
 }
 
 body {

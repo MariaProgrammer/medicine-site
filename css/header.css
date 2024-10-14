@@ -110,14 +110,14 @@
 }
 .logo__text-title {
   display: inline-block;
-  font-family: var(--second-family), serif;
+  font-family: var(--second-family);
   font-size: 44px;
   color: var(--new-main);
   margin-bottom: 3px;
 }
 .logo__text-subtitle {
   display: inline-block;
-  font-family: var(--second-family), serif;
+  font-family: var(--second-family);
   font-size: 14px;
   color: var(--new-main);
   letter-spacing: 0.03em;
