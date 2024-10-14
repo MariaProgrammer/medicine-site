@@ -384,10 +384,9 @@ button:active {
 
 .input__wrap {
   flex: 1;
-  max-width: 260px;
-  
+  max-width: 260px;  
   margin-right: 30px;
-  margin-bottom: 15px;
+  
 }
 
 .submenu-list-item {

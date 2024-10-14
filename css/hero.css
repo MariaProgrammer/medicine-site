@@ -71,11 +71,12 @@
 }
 .form {
   margin-top: 30px;
-  margin-bottom: 12px;
+  margin-bottom: 30px;
   width: 100%;
 }
 .form__hero {
   display: flex;
+  
   
 }
 
