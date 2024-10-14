@@ -1,4 +1,5 @@
-// Burger
+document.addEventListener('DOMContentLoaded', function () {// Burger
+
 const burger = document.querySelector('.burger');
 const burgerMenu = document.querySelector('.burger-menu');
 const burgerCross = document.querySelector('.burger-menu__cross');
@@ -323,6 +324,7 @@ const swiper1 = new Swiper('.swiper1', {
 				swiperImg3.classList.toggle('active');
 			})
 
+})	
 			
 			
 			

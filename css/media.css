@@ -6,7 +6,7 @@
     margin-bottom: 15px;
   }
   .container {
-    padding: 0 15px;
+    padding: 0 32px;
   }
   .linie__gray {
     display: none;
@@ -16,11 +16,9 @@
     bottom: -552px;
   }
   .nav__header-menu {
-    padding: 0 15px;
+    padding: 0 32px;
   }
-  .nav__header-menu--grade {
-    width: 256px;
-  }
+  
   
   .nav__header-menu--list {
     display: none;
@@ -55,10 +53,7 @@
     margin-bottom: 15px;
   }
   
-  .reviews__bottom-card--text {
-    font-weight: 400;
-    font-size: 13px;
-  }
+  
   
   .trust__buttons {
     top: -20px;
@@ -195,9 +190,7 @@
     margin-bottom: 60px;
   }
   
-  .ratings__inner-card--title {
-    font-size: 24px;
-  }
+  
   .reviews__bottom-card--stars svg {
     width: 16px;
     height: 16px;
@@ -261,6 +254,19 @@
   
 }
 @media (max-width: 767.20px) {
+  .nav__header-contacts {
+    gap: 10px;
+    padding: 0 32px;
+  }
+  .nav__header-top-icon-tel, .nav__header-top-icon-addr {
+    margin-right: 4px;
+  }
+  .nav__header-top-icon-tel, .nav__header-top-icon-addr {
+    width: 16px;
+  }
+  .nav__header-contacts--text-tel, .nav__header-contacts--text-tel {
+    font-size: 12px;
+  }
   .hero__ramka {
     display: none;
   }
@@ -279,6 +285,10 @@
     align-items: start;
     justify-content: center;
     gap: 15px;
+  }
+  .services__accordion-item--link {
+    font-size: 16px;
+    font-weight: 400;
   }
   .about__service__inner {
     margin-bottom: 64px;
@@ -479,6 +489,10 @@
 }
 
 @media (max-width: 479.20px) {
+  .container, .nav__header-menu, .nav__header-contacts {
+    padding: 0 24px;
+  }
+  
   .burger-menu {
     bottom: -555px;
   }
@@ -513,6 +527,9 @@ font-size: 12px;
     height: 72px;
     max-width: 1140px;
     margin: 0 auto;
+  }
+  .nav__header-contacts--text-addr {
+    font-size: 14px;
   }
   .hero__inner {
     margin-bottom: 32px;
@@ -569,8 +586,21 @@ font-size: 12px;
   .services__accordion {
     margin-bottom: 32px;
   }
-  .trust__inner-wrap {
-    margin-bottom: 32px;
+  .reviews__bottom-card--text {
+    font-size: 14px;
+  }
+  .reviews__bottom-card--name, .reviews__bottom-card--middle-text, .reviews__bottom-card--link {
+    font-size: 13px;
+  }
+  
+  .trust__inner-wrap--title {
+    font-size: 14px;
+  }
+  .trust__inner-wrap--text {
+    font-size: 14px;
+  }
+  .trust__inner-wrap--result {
+    font-size: 14px;
   }
   .ratings__inner-cards {
     grid-template-columns: 1fr;

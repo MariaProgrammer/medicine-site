@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: center;
   gap: 60px;
+  padding: 0 32px;
   
 }
 .linie__gray {
@@ -43,8 +44,8 @@
   font-weight: 600;
 }
 .nav__header-contacts--text-addr {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
 }
 .nav__header-contacts--adress {
   display: flex;
@@ -150,7 +151,7 @@
 .nav__header-menu--grade {
   width: 262px;
   max-height: 74px;
-  padding: 13px 25px;
+  padding: 13px 24px;
   border: 1px solid var(--accent-red);
   border-radius: 6px;
 }
@@ -178,11 +179,13 @@
 
 }
 .grade__header--cifra {
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 600;
 }
 .grade__bottom {
  line-height: 1.5;
 font-size: 14px;
+font-weight: 400;
 color: var(--gray);
 text-align: center;
 }

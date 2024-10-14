@@ -31,7 +31,7 @@ text-align: center;
   background: var(--white);
   border: 1px solid var(--ligth-gray);
   border-radius: 12px;
-  padding: 30px;
+  padding: 20px;
 }
 
 .ratings__inner-card:hover {
@@ -48,6 +48,7 @@ text-align: center;
 .ratings__inner-card--title {
   font-weight: 600;
 font-size: 34px;
+line-height: 130%;
 text-align: center;
 color: var(--txt-black);
 margin-bottom: 12px;
