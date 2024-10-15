@@ -324,9 +324,9 @@
   .specialists__inner {
     margin-bottom: 64px;
   }
-  /* .specialists__inner-img {
-    height: 416px;
-  } */
+  .specialists__inner-img {
+    max-height: 600px;
+  }
   .question__inner {
     margin-bottom: 64px;
   }
