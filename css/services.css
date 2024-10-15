@@ -39,7 +39,9 @@ padding: 14px 30px;
 }
 .services__accordion-item--link {
   margin-left: 30px;
-  
+  display: inline-block;
+  position: relative;
+  top: -3px;
   font-weight: 600;
   font-size: 20px;
 }

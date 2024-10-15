@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {// Burger
+// Burger
 
 const burger = document.querySelector('.burger');
 const burgerMenu = document.querySelector('.burger-menu');
@@ -109,12 +109,12 @@ const swiper1 = new Swiper('.swiper1', {
     },
    
     // when window width is >= 480px
-    767: {
+    768: {
       slidesPerView: 2,
       spaceBetween: 12
     },
     // when window width is >= 640px
-    958: {
+    960: {
       slidesPerView: 2,
       spaceBetween: 12
     },
@@ -147,7 +147,8 @@ const swiper1 = new Swiper('.swiper1', {
 
 		const swiper3 = new Swiper('.swiper3', {
 			direction: 'horizontal',
-			loop: true,
+			
+			// slidesToScroll:1,
 			slidesPerView: 4,
 			spaceBetween: 30,	
 			navigation: {	
@@ -164,12 +165,12 @@ const swiper1 = new Swiper('.swiper1', {
 				// when window width is >= 480px
 				768: {
 					slidesPerView: 2,
-					spaceBetween: 32
+					spaceBetween: 30
 				},
 				// when window width is >= 640px
 				960: {
 					slidesPerView: 3,
-					spaceBetween: 32
+					spaceBetween: 30
 				},
 				1279: {
 					slidesPerView: 4,
@@ -324,7 +325,7 @@ const swiper1 = new Swiper('.swiper1', {
 				swiperImg3.classList.toggle('active');
 			})
 
-})	
+
 			
 			
 			
