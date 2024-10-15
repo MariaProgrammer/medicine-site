@@ -324,6 +324,9 @@
   .specialists__inner {
     margin-bottom: 64px;
   }
+  /* .specialists__inner-img {
+    height: 416px;
+  } */
   .question__inner {
     margin-bottom: 64px;
   }
@@ -481,13 +484,24 @@
   border: none;
 }
 
+
 }
 
 @media (max-width: 479.20px) {
   .container, .nav__header-menu, .nav__header-contacts {
     padding: 0 24px;
   }
-  
+  .logo__text-title {
+    font-size: 34px;
+    font-weight: 400;
+   
+    margin-bottom: 7px;
+  }
+  .logo__text-subtitle {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: normal;
+  }
   .burger-menu {
     bottom: -555px;
   }
@@ -499,17 +513,7 @@
     height: 50px;
     object-fit: contain;
   }
-  .logo__text-title {
-    font-weight: 600;
-font-size: 34px;
-margin-bottom: 10px;
-    
-  }
-  .logo__text-subtitle {
-    font-weight: 400;
-font-size: 12px;
-
-  }
+ 
   .nav__header-menu--burger {
     width: 52px;
     height: 52px;
@@ -612,6 +616,9 @@ font-size: 12px;
   .ratings__inner {
     margin-bottom: 37px;
   }
+  .ratings__inner-title {
+    max-width: 232px;
+  }
 
   .reviews__inner {
     margin-bottom: 32px;
@@ -683,6 +690,9 @@ font-size: 12px;
   .specialists__buttons {
     top: 15px;
     
+  }
+  .specialists__inner-img {
+    height: 412px;
   }
   
   .form__input {    
