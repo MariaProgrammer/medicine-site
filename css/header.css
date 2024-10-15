@@ -196,6 +196,8 @@ text-align: center;
 
 .nav__header-menu--burger--text {
   margin-right: 30px;
+  font-size: 16px;
+  font-weight: 600;
   
   
 }

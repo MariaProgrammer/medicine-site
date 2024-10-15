@@ -40,7 +40,9 @@
   .hero__inner-left {
     width: 100%;
   }
-  
+  .reviews__bottom-card--name {
+    font-size: 14px;
+  }
   
   .about__inner {
     align-items: flex-start;
@@ -285,9 +287,12 @@
   .about__service__inner {
     margin-bottom: 64px;
   }
-  /* .reviews__top {
-    margin-bottom: 64px;
-  } */
+  .about__inner {
+    margin-bottom: 60px;
+  }
+  .about__inner--text:last-of-type {
+    margin-bottom: 0;
+  }
   .reviews__inner {
     margin-bottom: 60px;
   }
@@ -309,12 +314,7 @@
   .ratings__inner {
     margin-bottom: 60px;
   }
-  .about__inner {
-    margin-bottom: 60px;
-  }
-  .about__inner--text:last-of-type {
-    margin-bottom: 0;
-  }
+  
   .swiper-button-prev-about {
     display: none;
   }
@@ -369,6 +369,9 @@
 .address__inner-contact {
   font-size: 14px;
   font-weight: 400;
+}
+.address__inner-text {
+  font-size: 14px;
 }
 
 
@@ -616,24 +619,20 @@ font-size: 12px;
   .reviews__top {
     margin-bottom: 24px;
   }
-  .reviews__button {
-    width: 40px !important;
-    height: 40px !important;
-  }
-  .reviews__top--title {
+   .reviews__top--title {
     padding-bottom: 10px;
   }
   .trust__inner-wrap--right {
     margin-bottom: 0;
   }
+  .reviews__bottom-card--name, .reviews__bottom-card--middle-text  {
+    font-size: 13px;
+  }
  
   .trust__buttons {
     top: 28px;
   }
-  .trust__button {
-    width: 40px;
-    height: 40px;
-  }
+  
   .trust__title {
     max-width: 200px;
     margin-bottom: 24px;
@@ -642,9 +641,7 @@ font-size: 12px;
     gap: 24px;
     margin-bottom: 0;
   }
-  .trust__inner-wrap--title {
-    margin-bottom: 24px;
-  }
+  
   .trust__inner {
     margin-bottom: 32px;
   }
@@ -687,12 +684,7 @@ font-size: 12px;
     top: 15px;
     
   }
-  .specialists__button {
-    width: 40px;
-    height: 40px;
-        
-  }
-
+  
   .form__input {    
     margin-bottom: 12px;
   }

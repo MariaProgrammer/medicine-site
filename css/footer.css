@@ -17,6 +17,11 @@ background: var(--white);
 
   
 }
+.footer__burger--text {
+  font-size: 16px;
+  margin-right: 30px;
+  font-weight: 600;
+}
 .footer__menu {
 }
 .footer__item {
