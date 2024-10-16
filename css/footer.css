@@ -45,6 +45,7 @@ font-size: 14px;
   
 }
 .footer__link {
+  line-height: 19px;
 }
 .item-subtitle {
   font-weight: 600;
@@ -260,6 +261,7 @@ margin-bottom: 4px;
   color: var(--new-main);
 }
 .footer__popup-link {
+  line-height: 19px;
 }
 .footer__popup-button {
   width: 40px;

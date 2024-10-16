@@ -180,6 +180,7 @@
 .grade__header--text {
   font-weight: 400;
 font-size: 14px;
+line-height: 19px;
 
 }
 .grade__header--cifra {
@@ -187,7 +188,7 @@ font-size: 14px;
   font-weight: 600;
 }
 .grade__bottom {
- line-height: 1.5;
+ line-height: 19px;
 font-size: 14px;
 font-weight: 400;
 color: var(--gray);

@@ -23,15 +23,29 @@ burger.addEventListener("click", () => {
   // document.body.classList.toggle("stop-scroll");    
 });
 
-const btnSend = document.querySelector('.btn');
-      const input1 = document.getElementById('tel1');
+const btnSend1 = document.querySelector('.btn1');
+const input1 = document.getElementById('tel1');
+const btnSend2 = document.querySelector('.btn2');
+const input2 = document.getElementById('tel2');
 
-      if(input1.classList.contains('just-validate-error-field')) {
-        setTimeout(() => {
-          input1.blur();    
-        }, 1000)
-      }
+btnSend1.addEventListener('click', ()=> {
+	input1.focus();
+		setTimeout(() => {
+			input1.classList.remove('just-validate-error-field')
 			
+			input1.blur();
+		}, 10000)
+	});
+btnSend2.addEventListener('click', ()=> {
+	input1.focus();
+		setTimeout(() => {
+			input2.classList.remove('just-validate-error-field')
+			
+			input2.blur();
+		}, 10000)
+	});
+      
+
 footerBurger.addEventListener("click", () => {
 	console.log('done');
 	

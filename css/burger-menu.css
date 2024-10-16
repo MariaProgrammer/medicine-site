@@ -46,12 +46,14 @@ position: relative;
 .burger-menu__item {
   font-weight: 400;
 font-size: 14px;
+line-height: 19px;
 margin-bottom: 6px;
 }
 .burger-menu__item:hover, .burger-menu__item:focus, .burger-menu__item:active {
   color: var(--new-main);
 }
 .burger__title {
+  line-height: 22px;
   font-weight: 600;
 font-size: 16px;
 }

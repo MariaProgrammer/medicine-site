@@ -75,6 +75,7 @@
 
 .question__inner-text {
   font-weight: 400;
+  line-height: 19px;
   font-size: 14px;
   color: var(--ligth-gray);
 }

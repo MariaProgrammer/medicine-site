@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 36px;
 }
 .reviews__top--grade {
   display: none;
@@ -109,7 +109,7 @@ color: var(--txt-black);
 }
 .reviews__bottom-card--middle-text {
   font-family: var(--font-family);
-  line-height: 150%;
+ line-height: 19px;
   font-weight: 400;
   font-size: 14px;
   color: var(--txt-black);
@@ -119,13 +119,13 @@ color: var(--txt-black);
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 14px;
-  line-height: 150%;
+
   color: var(--new-main);
   margin-left: 5px;
 }
 .reviews__bottom-card--text {
   font-family: var(--font-family);
-  line-height: 150%;
+
   font-weight: 400;
   font-size: 16px;
   color: var(--txt-black);
