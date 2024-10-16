@@ -6,13 +6,20 @@ im.mask(selector);
 
 let validation = new JustValidate("#form1");
 
+
+
+
+  
+
+
 validation.addField("#tel1", [
   {
     validator: (value) => {
       const phone = selector.inputmask.unmaskedvalue()
-      return Boolean(Number(phone) && phone.length > 0)
+      return Boolean(Number(phone) && phone.length > 0)     
+    
     },
-    errorMessage: 'Введите телефон'
+    errorMessage: ' '
   },
   {
     validator: (value) => {
@@ -50,6 +57,8 @@ validation.addField("#tel1", [
   // alert('код сработал')
 });
 
+
+
 let selectorQuestion = document.querySelector("#tel2");
 console.log(selectorQuestion);
 
@@ -64,7 +73,7 @@ validation2.addField("#tel2", [
       const phone = selectorQuestion.inputmask.unmaskedvalue()
       return Boolean(Number(phone) && phone.length > 0)
     },
-    errorMessage: 'Введите телефон'
+    errorMessage: ' '
   },
   {
     validator: (value) => {
@@ -99,34 +108,3 @@ validation2.addField("#tel2", [
   // alert(result2)
 });
 
-// function addClass(event) {
-// 	event.preventDefault();	
-// 	thanksPopup.classList.add('active');
-// }
-
-// function btn1Popup {
-//   const btn1 = document.querySelector('.btn1');
-//   const thanksButton = document.querySelector('.thanks__popup-button');
-//   const thanksPopup = document.querySelector('.thanks__popup');
-//   thanksButton.addEventListener('click', () => {
-//     thanksPopup.classList.remove('active');
-//     location.reload();   
-//     btn1.addEventListener('click', addClass, false); 
-//   });
-
-// }
-
-// const btn2 = document.querySelector('.btn2');
-// const thanksButton = document.querySelector('.thanks__popup-button');
-// const thanksPopup = document.querySelector('.thanks__popup');
-// // console.log(heroButton);
-// // console.log(btn1, btn2);
-
-// thanksPopup.addEventListener('click', () => {
-// 	thanksPopup.classList.remove('active');
-//   location.reload();
-  
-// });
-
-// btn1.addEventListener('click', addClass, false);
-// btn2.addEventListener('click', addClass, false);

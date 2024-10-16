@@ -23,6 +23,15 @@ burger.addEventListener("click", () => {
   // document.body.classList.toggle("stop-scroll");    
 });
 
+const btnSend = document.querySelector('.btn');
+      const input1 = document.getElementById('tel1');
+
+      if(input1.classList.contains('just-validate-error-field')) {
+        setTimeout(() => {
+          input1.blur();    
+        }, 1000)
+      }
+			
 footerBurger.addEventListener("click", () => {
 	console.log('done');
 	
