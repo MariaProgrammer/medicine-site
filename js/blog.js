@@ -27,6 +27,8 @@ const list = document.querySelector('.article__ramka-links');
 const items = document.querySelectorAll('.article__card');
 const listItems = document.querySelectorAll('.service-item');
 const directions__list = document.querySelector('.article__cards');
+const allArticles = document.querySelector('[data-id="all"]');
+
 
 
 function filter() {
@@ -46,6 +48,7 @@ function filter() {
 		
 		target.classList.add('show-block');			
 		target.classList.add('active');
+		allArticles.classList.remove('service-item--last')
 		
 		
 
