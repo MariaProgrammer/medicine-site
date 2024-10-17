@@ -8,9 +8,7 @@ const hoverMenu = document.querySelector('.hover-menu');
 const hoverMenuCross = document.querySelector('.hover-menu__cross');
 const burgerButton = document.querySelector('.burger__button');
 
-const footerPopup = document.querySelector('.footer__popup');
-const footerPopupButton = document.querySelector('.footer__popup-button');
-const aboutClinica = document.querySelector('.about__clinica');
+
 
 const footerMenuCross = document.querySelector('.footer-menu__cross');
 const footerBurgerMenu = document.querySelector('.footer__burger-menu');
@@ -22,28 +20,6 @@ burger.addEventListener("click", () => {
 	burger.classList.toggle('active');    
   // document.body.classList.toggle("stop-scroll");    
 });
-
-const btnSend1 = document.querySelector('.btn1');
-const input1 = document.getElementById('tel1');
-const btnSend2 = document.querySelector('.btn2');
-const input2 = document.getElementById('tel2');
-
-btnSend1.addEventListener('click', ()=> {
-	input1.focus();
-		setTimeout(() => {
-			input1.classList.remove('just-validate-error-field')
-			
-			input1.blur();
-		}, 10000)
-	});
-btnSend2.addEventListener('click', ()=> {
-	input1.focus();
-		setTimeout(() => {
-			input2.classList.remove('just-validate-error-field')
-			
-			input2.blur();
-		}, 10000)
-	});
       
 
 footerBurger.addEventListener("click", () => {
@@ -89,19 +65,30 @@ hoverMenuCross.addEventListener("click", () => {
 
 
 //Popup
-footerPopupButton.addEventListener('click', () => {
-	footerPopup.remove('active');
-	// location.reload()
+const footerPopup = document.querySelector('.footer__popup');
+const footerPopupButton = document.querySelector('.footer__popup-button');
+const aboutClinica = document.querySelector('.about__clinica');
+
+aboutClinica.addEventListener("click", () => {
+	footerPopup.classlist.remove('active');
+
 })
 
-	footerPopup.addEventListener("mouseover", () => {	
-		footerPopup.classList.add('active');		
-	});	
+footerPopupButton.addEventListener('mouseover', () => {
+	console.log('done');
+	
+	footerPopup.classlist.add('active');
 
-	aboutClinica.addEventListener("mouseover", () => {	
-		footerPopup.classList.add('active');
+})
+
+
+
+	// footerPopup.addEventListener("mouseover", () => {	
+	// 	footerPopup.classList.add('active');		
+	// });	
+
 		
-});
+
 
 
 

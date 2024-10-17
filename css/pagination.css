@@ -6,12 +6,23 @@
 .article__button {
   display: inline-block;
   border: 1px solid var(--new-main);
-border-radius: 6px;
-padding: 12px 24px;
-width: 157px;
-height: 46px;
-margin-top: 30px;
-margin-bottom: 18px;
+  border-radius: 6px;
+  padding: 12px 24px;
+  width: auto;
+  height: 46px;
+  margin-top: 30px;
+  margin-bottom: 18px;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
+}
+
+.article__button:hover, .article__button:active {
+  color: #fff;
+  border: none;
+  background: var(--new-main);
 }
 
 
@@ -22,17 +33,7 @@ margin-bottom: 18px;
   margin-bottom: 70px;
 
 }
-.article__button {
-  display: block;
-  border: 1px solid var(--new-main);
-border-radius: 6px;
-padding: 12px 24px;
-width: 157px;
-height: 46px;
-margin: 0 auto;
-margin-top: 30px;
-margin-bottom: 18px;
-}
+
 .article__btn {
   margin-right: 12px;
   font-size: 16px;  

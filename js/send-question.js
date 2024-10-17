@@ -12,7 +12,7 @@ validation3.addField("#tel2", [
       const phone = selectorQuestion.inputmask.unmaskedvalue()
       return Boolean(Number(phone) && phone.length > 0)
     },
-    errorMessage: 'Введите телефон'
+    errorMessage: ' '
   },
   {
     validator: (value) => {

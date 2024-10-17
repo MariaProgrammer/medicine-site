@@ -228,7 +228,7 @@ color: var(--txt-black);
   display: none;
   position: absolute;
   left: 0;
-  top: -50%;
+  top: -59%;
   width: 160px;
   z-index: 600;
   border-radius: 6px;
