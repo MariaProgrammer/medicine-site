@@ -69,24 +69,19 @@ const footerPopup = document.querySelector('.footer__popup');
 const footerPopupButton = document.querySelector('.footer__popup-button');
 const aboutClinica = document.querySelector('.about__clinica');
 
-aboutClinica.addEventListener("click", () => {
-	footerPopup.classlist.remove('active');
-
+footerPopupButton.addEventListener('click', () => {
+	footerPopup.remove('active');
+	location.reload()
 })
 
-footerPopupButton.addEventListener('mouseover', () => {
-	console.log('done');
-	
-	footerPopup.classlist.add('active');
+	footerPopup.addEventListener("mouseover", () => {	
+		footerPopup.classList.add('active');		
+	});	
 
-})
-
-
-
-	// footerPopup.addEventListener("mouseover", () => {	
-	// 	footerPopup.classList.add('active');		
-	// });	
-
+	aboutClinica.addEventListener("mouseover", () => {	
+		footerPopup.classList.add('active');
+		
+});
 		
 
 

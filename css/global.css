@@ -375,6 +375,17 @@ button:active {
   color: var(--new-main);
 
 }
+.submenu-list-item {
+  border: 1px solid var(--gray);
+  border-radius: 6px;
+  padding: 2px 4px 2px 4px;
+  width: 100%;
+  text-align: center;
+  margin-right: 6px;
+  color: var(--gray);
+  font-weight: 400;
+  font-size: 13px;
+}
 .service-item--last {
   overflow: hidden;
   white-space: nowrap;
@@ -390,18 +401,7 @@ button:active {
   
 }
 
-.submenu-list-item {
-  border: 1px solid var(--gray);
-  border-radius: 6px;
-  padding: 2px 4px 4px 4px;
-  /* min-width: 75px; */
-  /* height: 22px; */
-  text-align: center;
-  margin-right: 6px;
-  color: var(--gray);
-  font-weight: 400;
-  font-size: 13px;
-}
+
 .submenu-list-item:hover,
 .submenu-list-item:focus,
 .submenu-list-item:active {

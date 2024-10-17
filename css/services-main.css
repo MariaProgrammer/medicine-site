@@ -47,6 +47,8 @@
 }
 .hero__ramka-links {
   display: flex;
+  margin-bottom: 16px;
+
   
 }
 .hero__inner-right--services {
