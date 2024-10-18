@@ -163,7 +163,7 @@ margin-bottom: 0;
 .about__service-text {
   font-weight: 400;
 font-size: 16px;
-
+max-width: 720px;
 margin-bottom: 30px;
 }
 .about__service-text:last-of-type {

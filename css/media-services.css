@@ -65,6 +65,9 @@
     font-weight: 400;
     font-size: 16px;
   }
+  .service-sale {
+    margin-bottom: 27px;
+  }
   
   .price-item__img {
     display: none;
@@ -92,7 +95,7 @@
     display: block;
   }
   .service-hero__subtitle {
-    margin-bottom: 16px;  
+    margin-bottom: 22px;  
    
   }
   .service-descr {
@@ -100,7 +103,7 @@
   }
   .sale {
     display: block;
-    margin: 0;
+    
   }
   .ramka-none {
     padding: 0;
@@ -109,9 +112,7 @@
   .price__inner {
     margin-bottom: 32px;
   }
-  .service-hero__subtitle {
-    margin-bottom: 16px;
-  }
+  
   .price-item__tsena {
     text-align: left;
   }
@@ -144,7 +145,7 @@
   .service-hero__subtitle {
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
   }
   .service-title, .service-text, .service-subtext {
     font-size: 14px;

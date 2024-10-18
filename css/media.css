@@ -694,6 +694,10 @@
   .about__inner--text:last-of-type {
     margin-bottom: 0;
   }
+
+  .about__buttons {
+    top: 7px;
+  }
   .specialists__inner-subtitle {
     font-size: 16px;
   }
