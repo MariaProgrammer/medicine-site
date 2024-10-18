@@ -43,6 +43,7 @@ burgerCross.addEventListener("click", () => {
 	burger.classList.remove('active');  
 	burgerButton.classList.remove('active');  
 });
+
 hoverMenuCross.addEventListener("click", () => {
 	hoverMenu.classList.remove('active'); 
 });
@@ -51,16 +52,11 @@ services.addEventListener("mouseover", () => {
   // document.body.classList.toggle("stop-scroll");    
 });
 
-
 hoverMenu.addEventListener("mouseover", () => {
 	hoverMenu.classList.add('active');    
-  // document.body.classList.toggle("stop-scroll");    
+    
 });
-hoverMenuCross.addEventListener("click", () => {	
-	hoverMenu.classList.remove('active');
-	    
-  // document.body.classList.toggle("stop-scroll");    
-});
+
 
 
 
@@ -69,19 +65,24 @@ const footerPopup = document.querySelector('.footer__popup');
 const footerPopupButton = document.querySelector('.footer__popup-button');
 const aboutClinica = document.querySelector('.about__clinica');
 
-footerPopupButton.addEventListener('click', () => {
-	footerPopup.remove('active');
-	location.reload()
-})
-
-	footerPopup.addEventListener("mouseover", () => {	
-		footerPopup.classList.add('active');		
-	});	
-
-	aboutClinica.addEventListener("mouseover", () => {	
-		footerPopup.classList.add('active');
-		
+footerPopupButton.addEventListener("click", () => {
+	footerPopup.classList.remove('active'); 
 });
+aboutClinica.addEventListener("mouseover", () => {
+	footerPopup.classList.add('active');    
+  // document.body.classList.toggle("stop-scroll");    
+});
+
+// footerPopup.addEventListener("mouseover", () => {
+// 	footerPopup.classList.add('active');    
+    
+// });
+
+	
+
+
+
+
 		
 
 
