@@ -642,6 +642,7 @@
   }
   .ratings__inner-title {
     max-width: 232px;
+    margin-bottom: 24px;
   }
 
   .reviews__inner {
@@ -652,7 +653,7 @@
     margin-bottom: 24px;
   }
    .reviews__top--title {
-    padding-bottom: 10px;
+    padding-bottom: 18px;
   }
   
   
@@ -669,6 +670,9 @@
   
   .trust__title {
     max-width: 200px;
+    /* margin-bottom: 24px; */
+  }
+  .trust__inner-top {
     margin-bottom: 24px;
   }
   .trust__inner-wrap {
@@ -799,6 +803,7 @@
     margin-left: 5px;
     
   }
+  
   .reviews__top {
     margin-bottom: 24px;
   }
@@ -806,6 +811,7 @@
   .reviews__top--title {
     max-width: 140px;
     line-height: 150%;
+    padding: 0;
   }
   .reviews__bottom-card {
     height: auto;
