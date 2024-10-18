@@ -1,7 +1,7 @@
 .submenu__inner {
   position: relative;
-  margin-top: 32px;
-  margin-bottom: 12px;
+  /* margin-top: 32px;
+  margin-bottom: 12px; */
 }
 
 .akcii__links {
@@ -40,6 +40,7 @@ margin-bottom: 32px;
 .stocks__card-subtitle {
   font-weight: 600;
 font-size: 24px;
+line-height: 130%;
 margin-bottom: 12px;
 }
 .stocks__card-text {

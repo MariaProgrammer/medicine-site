@@ -112,6 +112,9 @@
   .service-hero__subtitle {
     margin-bottom: 16px;
   }
+  .price-item__tsena {
+    text-align: left;
+  }
   
   
 }

@@ -1,20 +1,31 @@
 //button more
-
-const articleButton = document.querySelector('.article__button-mobile')
-const articleCardMore = document.querySelectorAll('.article__card--more')
-
-articleButton.addEventListener('click', ()=> {
-	articleCardMore.forEach((item)=> {
-		item.classList.toggle('active');
-	});
-		
-});
 const articleButtonDesctop = document.querySelector('.article__button-desctop')
 const cardMore = document.querySelectorAll('.card--more')
 
 articleButtonDesctop.addEventListener('click', ()=> {	
 	cardMore.forEach((item)=> {
 		item.classList.toggle('active');
+	});
+		
+});
+
+const articleButtonTablet = document.querySelector('.article__button-tablet')
+const articleCardMore = document.querySelectorAll('.article__card--more')
+
+articleButtonTablet.addEventListener('click', ()=> {
+	articleCardMore.forEach((item)=> {
+		item.classList.toggle('active');
+	});
+		
+});
+
+const articleButtonMobile = document.querySelector('.article__button-mobile')
+const cardMoreMobile = document.querySelectorAll('.article__card--more-mobile')
+const cardMoreMobil4 = document.querySelector('[data-order="4"]')
+
+articleButtonMobile.addEventListener('click', ()=> {	
+	cardMoreMobile.forEach((item)=> {
+		item.classList.add('active');
 	});
 		
 });

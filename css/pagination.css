@@ -73,7 +73,7 @@
 
 
 @media (max-width: 959.20px) {
-  .article__navigation-mobile {
+  .article__navigation-tablet {
     display: block;
   }
   .article__navigation-desctop {
@@ -88,7 +88,19 @@
   
 }
 @media (max-width: 767.20px) {
-  
+  .article__navigation-tablet {
+    display: none;
+  }
+  .article__navigation-mobile {
+    display: block;
+
+  }
+  .article__card--more-mobile {
+    display: none;
+  }
+  .article__card--more-mobile.active {
+    display: block;
+  }
   
   .article__pages-wrap {
     margin-bottom: 60px;

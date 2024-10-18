@@ -40,6 +40,16 @@
 
 }
 @media (max-width: 767.20px) {
+  .article-wrap {
+    margin-bottom: 60px;
+  }
+  .article__more-inner {
+    margin-bottom: 60px;
+
+  }
+  .article__inner {
+    margin-bottom: 60px;
+  }
   .ramka-0 {
     border: none;
     padding: 0;
@@ -59,11 +69,18 @@
    }
 }
 @media (max-width: 479.20px) {
+  .article-wrap {
+    margin-bottom: 32px;
+  }
+  .article__more-inner {
+    margin-bottom: 32px;
+
+  }
+  .article__inner {
+    margin-bottom: 32px;
+  }
   
-  .article__more-img {
-    
-  
-    
+  .article__more-img {   
      height: 192px;
    }
 }

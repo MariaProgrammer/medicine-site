@@ -76,6 +76,7 @@
   width: 10px;
   height: 17px;
   object-fit: contain;
+  margin-left: 30px;
 }
 
 /* .article__navigation {
@@ -141,13 +142,8 @@ margin-bottom: 18px;
   gap: 12px;
   
 }
-/* .card--more {
+.article__navigation-tablet {
   display: none;
-}
-.card--more.active {
-  display: block;
 }
 
-.article__navigation-mobile {
-  display: none;
-} */
+
