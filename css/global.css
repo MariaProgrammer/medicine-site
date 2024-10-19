@@ -331,6 +331,8 @@ button:active {
   width: 100%;
 }
 .hero__ramka-links {
+ 
+  white-space: nowrap;
   align-items: center;
   justify-content: flex-start;
 }
@@ -387,6 +389,7 @@ button:active {
   font-size: 13px;
 }
 .service-item--last {
+  
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
