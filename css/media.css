@@ -11,7 +11,7 @@
   }
   .burger-menu {
     
-    bottom: -552px;
+    bottom: -535px;
   }
   .nav__header-menu {
     padding: 0 32px;
@@ -171,10 +171,7 @@
     width: 74px;
     height: 74px;
   }
-  .burger-menu {
-    
-    bottom: -552px;
-  }
+  
   .hero__inner {
     margin-bottom: 60px;
   }
@@ -517,8 +514,8 @@
     letter-spacing: normal;
   }
   .burger-menu {
-    bottom: -555px;
-  }
+    bottom: -523px;
+}
   .nav__header-contacts--text-tel {
     font-size: 12px;  
   }
