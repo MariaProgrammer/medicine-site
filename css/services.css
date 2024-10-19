@@ -1,7 +1,12 @@
+.services__top--title {
+  margin-bottom: 32px;
+}
+
 .services__subtitle {
   margin-bottom: 30px;
 }
 .services__accordion {
+ 
   margin-bottom: 70px;
 }
 .ramka-services {
