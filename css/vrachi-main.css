@@ -134,6 +134,8 @@ font-size: 16px;
 .card-img {
   display: block;
   width: auto;
+  max-width: 500px;
+  min-width: 300px;
   height: auto;
   max-height: 100vh;
   margin: 0 auto;
