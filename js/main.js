@@ -1,3 +1,4 @@
+
 // Burger
 
 const burger = document.querySelector('.burger');

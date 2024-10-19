@@ -1,6 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
-
- const specialistWindow = document.querySelector('.vrachi-window__wrap');
+const specialistWindow = document.querySelector('.vrachi-window__wrap');
 const specialistWindowCross = document.querySelector('.vrachi-window__cross');
 const elem = document.querySelector('.vrachi-window__inner');
 
@@ -55,10 +53,7 @@ const buttonKaracheva7 = document.querySelector('.karacheva-btn7')
 const buttonKaracheva8 = document.querySelector('.karacheva-btn8')
 const buttonKaracheva9 = document.querySelector('.karacheva-btn9')
 const buttonKaracheva10 = document.querySelector('.karacheva-btn10')
-const buttonKaracheva11 = document.querySelector('.karacheva-btn11')
-const buttonKaracheva12 = document.querySelector('.karacheva-btn12')
-const buttonKaracheva13 = document.querySelector('.karacheva-btn13')
-const buttonKaracheva14 = document.querySelector('.karacheva-btn14')
+
 
 const buttonKaracheva1s = document.querySelector('.karacheva-btn1s')
 const buttonKaracheva2s = document.querySelector('.karacheva-btn2s')
@@ -70,57 +65,69 @@ const buttonKaracheva7s = document.querySelector('.karacheva-btn7s')
 const buttonKaracheva8s = document.querySelector('.karacheva-btn8s')
 const buttonKaracheva9s = document.querySelector('.karacheva-btn9s')
 const buttonKaracheva10s = document.querySelector('.karacheva-btn10s')
-const buttonKaracheva11s = document.querySelector('.karacheva-btn11s')
-const buttonKaracheva12s = document.querySelector('.karacheva-btn12s')
-const buttonKaracheva13s = document.querySelector('.karacheva-btn13s')
-const buttonKaracheva14s = document.querySelector('.karacheva-btn14s')
 
-const buttonNikolaeva1 = document.querySelector('.nikolaeva-btn1')
-const buttonNikolaeva2 = document.querySelector('.nikolaeva-btn2')
-const buttonNikolaeva3 = document.querySelector('.nikolaeva-btn3')
-const buttonNikolaeva4 = document.querySelector('.nikolaeva-btn4')
-const buttonNikolaeva5 = document.querySelector('.nikolaeva-btn5')
-const buttonNikolaeva6 = document.querySelector('.nikolaeva-btn6')
-const buttonNikolaeva7 = document.querySelector('.nikolaeva-btn7')
-const buttonNikolaeva8 = document.querySelector('.nikolaeva-btn8')
-const buttonNikolaeva9 = document.querySelector('.nikolaeva-btn9')
 
-const buttonNikolaeva1s = document.querySelector('.nikolaeva-btn1s')
-const buttonNikolaeva2s = document.querySelector('.nikolaeva-btn2s')
-const buttonNikolaeva3s = document.querySelector('.nikolaeva-btn3s')
-const buttonNikolaeva4s = document.querySelector('.nikolaeva-btn4s')
-const buttonNikolaeva5s = document.querySelector('.nikolaeva-btn5s')
-const buttonNikolaeva6s = document.querySelector('.nikolaeva-btn6s')
-const buttonNikolaeva7s = document.querySelector('.nikolaeva-btn7s')
-const buttonNikolaeva8s = document.querySelector('.nikolaeva-btn8s')
-const buttonNikolaeva9s = document.querySelector('.nikolaeva-btn9s')
+const buttonMolyavko1 = document.querySelector('.molyavko-btn1')
+const buttonMolyavko2 = document.querySelector('.molyavko-btn2')
+const buttonMolyavko3 = document.querySelector('.molyavko-btn3')
+const buttonMolyavko4 = document.querySelector('.molyavko-btn4')
+const buttonMolyavko5 = document.querySelector('.molyavko-btn5')
+const buttonMolyavko6 = document.querySelector('.molyavko-btn6')
+const buttonMolyavko7 = document.querySelector('.molyavko-btn7')
+const buttonMolyavko8 = document.querySelector('.molyavko-btn8')
+const buttonMolyavko9 = document.querySelector('.molyavko-btn9')
+const buttonMolyavko10 = document.querySelector('.molyavko-btn10')
+const buttonMolyavko11 = document.querySelector('.molyavko-btn11')
+const buttonMolyavko12 = document.querySelector('.molyavko-btn12')
+const buttonMolyavko13 = document.querySelector('.molyavko-btn13')
+const buttonMolyavko14 = document.querySelector('.molyavko-btn14')
+
+const buttonMolyavko1s = document.querySelector('.molyavko-btn1s')
+const buttonMolyavko2s = document.querySelector('.molyavko-btn2s')
+const buttonMolyavko3s = document.querySelector('.molyavko-btn3s')
+const buttonMolyavko4s = document.querySelector('.molyavko-btn4s')
+const buttonMolyavko5s = document.querySelector('.molyavko-btn5s')
+const buttonMolyavko6s = document.querySelector('.molyavko-btn6s')
+const buttonMolyavko7s = document.querySelector('.molyavko-btn7s')
+const buttonMolyavko8s = document.querySelector('.molyavko-btn8s')
+const buttonMolyavko9s = document.querySelector('.molyavko-btn9s')
+const buttonMolyavko10s = document.querySelector('.molyavko-btn10s')
+const buttonMolyavko11s = document.querySelector('.molyavko-btn11s')
+const buttonMolyavko12s = document.querySelector('.molyavko-btn12s')
+const buttonMolyavko13s = document.querySelector('.molyavko-btn13s')
+const buttonMolyavko14s = document.querySelector('.molyavko-btn14s')
 
 const lupa = document.querySelector('.window-button--lupa');
+
 function openGramota(buttonSelector, name, n, file='png'){
-  
-  
   buttonSelector.addEventListener('click', ()=> {
     specialistWindow.classList.add('active');
-    let img = `<img src="img/doctors/gramoty_${name}/${n}.${file}" class="card-certificate-img" width="500" height="auto">`;
+    let img = `<img src="img/doctors/gramoty_${name}/${n}.${file}" class="card-img" width="500" height="auto">`;
     elem.innerHTML= img;
-    lupa.addEventListener('click', ()=> {
-      if(elem.classList.contains('active')) {
-        elem.classList.remove('active');
-      } else {
-        elem.classList.add('active');
-      }      
-      
-    });
-    specialistWindowCross.addEventListener('click', () => {
-      specialistWindow.classList.remove('active');
-      elem.innerHTML = ``;  
-      specialistWindow.classList.remove('active');
-      
-    });
-    
-      
-  });
+  })
+
+
 }
+lupa.addEventListener('click', ()=> {
+  console.log(elem);
+  elem.firstElementChild.classList.toggle('active');
+})
+  specialistWindowCross.addEventListener('click', () => {
+    specialistWindow.classList.remove('active');
+    // elem.innerHTML = '';
+    console.log(elem);
+
+  });
+  
+  
+ 
+
+
+    
+  
+
+ 
+
 
 openGramota(buttonKrainov1, 'ilya', 1);
 openGramota(buttonKrainov2,'ilya', 2);
@@ -162,85 +169,60 @@ openGramota(buttonKrainov17s,'ilya', 17);
 openGramota(buttonKrainov18s,'ilya', 18);
 openGramota(buttonKrainov19s,'ilya', 19);
 
-openGramota(buttonKaracheva1,'ekaterina', 3, 'jpeg');
-openGramota(buttonKaracheva2,'ekaterina', 4, 'jpeg');
-openGramota(buttonKaracheva3,'ekaterina', 5, 'jpeg');
-openGramota(buttonKaracheva4,'ekaterina', 6, 'jpeg');
-openGramota(buttonKaracheva5,'ekaterina', 7, 'jpeg');
-openGramota(buttonKaracheva6,'ekaterina', 8, 'jpeg');
-openGramota(buttonKaracheva7,'ekaterina', 9, 'jpeg');
-openGramota(buttonKaracheva8,'ekaterina', 10, 'jpeg');
-openGramota(buttonKaracheva9,'ekaterina', 11, 'jpeg');
-openGramota(buttonKaracheva10,'ekaterina', 12, 'jpeg');
-openGramota(buttonKaracheva11,'ekaterina', 13, 'jpeg');
-openGramota(buttonKaracheva12,'ekaterina', 14, 'jpeg');
-openGramota(buttonKaracheva13,'ekaterina', 15, 'jpeg');
-openGramota(buttonKaracheva14,'ekaterina', 16, 'jpeg');
-
-openGramota(buttonKaracheva1s,'ekaterina', 3, 'jpeg');
-openGramota(buttonKaracheva2s,'ekaterina', 4, 'jpeg');
-openGramota(buttonKaracheva3s,'ekaterina', 5, 'jpeg');
-openGramota(buttonKaracheva4s,'ekaterina', 6, 'jpeg');
-openGramota(buttonKaracheva5s,'ekaterina', 7, 'jpeg');
-openGramota(buttonKaracheva6s,'ekaterina', 8, 'jpeg');
-openGramota(buttonKaracheva7s,'ekaterina', 9, 'jpeg');
-openGramota(buttonKaracheva8s,'ekaterina', 10, 'jpeg');
-openGramota(buttonKaracheva9s,'ekaterina', 11, 'jpeg');
-openGramota(buttonKaracheva10s,'ekaterina', 12, 'jpeg');
-openGramota(buttonKaracheva11s,'ekaterina', 13, 'jpeg');
-openGramota(buttonKaracheva12s,'ekaterina', 14, 'jpeg');
-openGramota(buttonKaracheva13s,'ekaterina', 15, 'jpeg');
-openGramota(buttonKaracheva14s,'ekaterina', 16, 'jpeg');
-
-openGramota(buttonNikolaeva1,'nastya', 1);
-openGramota(buttonNikolaeva2,'nastya', 2);
-openGramota(buttonNikolaeva3,'nastya', 3);
-openGramota(buttonNikolaeva4,'nastya', 4);
-openGramota(buttonNikolaeva5,'nastya', 5);
-openGramota(buttonNikolaeva6,'nastya', 6);
-openGramota(buttonNikolaeva7,'nastya', 7);
-openGramota(buttonNikolaeva8,'nastya', 8);
-openGramota(buttonNikolaeva9,'nastya', 9);
-
-openGramota(buttonNikolaeva1s,'nastya', 1);
-openGramota(buttonNikolaeva2s,'nastya', 2);
-openGramota(buttonNikolaeva3s,'nastya', 3);
-openGramota(buttonNikolaeva4s,'nastya', 4);
-openGramota(buttonNikolaeva5s,'nastya', 5);
-openGramota(buttonNikolaeva6s,'nastya', 6);
-openGramota(buttonNikolaeva7s,'nastya', 7);
-openGramota(buttonNikolaeva8s,'nastya', 8);
-openGramota(buttonNikolaeva9s,'nastya', 9);
-
-// const swiperSertificateInner = document.querySelector('.swiper-sertificate1--inner')
-// const swiperKrainovbtns = document.querySelectorAll('.krainov-btn')
-
-// const crossKrainov = document.querySelector('.swiper-button--cross-krainov')
-
-// crossKrainov.addEventListener('click', () => {  
-// 	specialistWindow.classList.remove('active');
-//   location.reload()
-// });
+openGramota(buttonMolyavko1,'ekaterina', 3, 'jpeg');
+openGramota(buttonMolyavko2,'ekaterina', 4, 'jpeg');
+openGramota(buttonMolyavko3,'ekaterina', 5, 'jpeg');
+openGramota(buttonMolyavko4,'ekaterina', 6, 'jpeg');
+openGramota(buttonMolyavko5,'ekaterina', 7, 'jpeg');
+openGramota(buttonMolyavko6,'ekaterina', 8, 'jpeg');
+openGramota(buttonMolyavko7,'ekaterina', 9, 'jpeg');
+openGramota(buttonMolyavko8,'ekaterina', 10, 'jpeg');
+openGramota(buttonMolyavko9,'ekaterina', 11, 'jpeg');
+openGramota(buttonMolyavko10,'ekaterina', 12, 'jpeg');
+openGramota(buttonMolyavko11,'ekaterina', 13, 'jpeg');
+openGramota(buttonMolyavko12,'ekaterina', 14, 'jpeg');
+openGramota(buttonMolyavko13,'ekaterina', 15, 'jpeg');
+openGramota(buttonMolyavko14,'ekaterina', 16, 'jpeg');
 
 
-			
-			
+openGramota(buttonMolyavko1s,'ekaterina', 3, 'jpeg');
+openGramota(buttonMolyavko2s,'ekaterina', 4, 'jpeg');
+openGramota(buttonMolyavko3s,'ekaterina', 5, 'jpeg');
+openGramota(buttonMolyavko4s,'ekaterina', 6, 'jpeg');
+openGramota(buttonMolyavko5s,'ekaterina', 7, 'jpeg');
+openGramota(buttonMolyavko6s,'ekaterina', 8, 'jpeg');
+openGramota(buttonMolyavko7s,'ekaterina', 9, 'jpeg');
+openGramota(buttonMolyavko8s,'ekaterina', 10, 'jpeg');
+openGramota(buttonMolyavko9s,'ekaterina', 11, 'jpeg');
+openGramota(buttonMolyavko10s,'ekaterina', 12, 'jpeg');
+openGramota(buttonMolyavko11s,'ekaterina', 13, 'jpeg');
+openGramota(buttonMolyavko12s,'ekaterina', 14, 'jpeg');
+openGramota(buttonMolyavko13s,'ekaterina', 15, 'jpeg');
+openGramota(buttonMolyavko14s,'ekaterina', 16, 'jpeg');
 
-// 			const openSertificate = (triggerSelector, modalDataSelector) => {
-// 				// const trigger = document.querySelectorAll(triggerSelector)
-// 				// console.log(trigger);
-				
-// 				// const modal = document.querySelector(modalDataSelector)
-// 				if (!triggerSelector || !modalDataSelector) return
-// 				triggerSelector.forEach(b => b.addEventListener('click', closeParentBlock));
-				
-				
-// 				function closeParentBlock(e) {
-// 					e.preventDefault()
-// 					modalDataSelector.classList.add('active')
-// 				}
-// 			}
-// 			openSertificate(swiperKrainovbtns, swiperSertificateInner);
+openGramota(buttonKaracheva1,'nastya', 1);
+openGramota(buttonKaracheva2,'nastya', 2);
+openGramota(buttonKaracheva3,'nastya', 3);
+openGramota(buttonKaracheva4,'nastya', 4);
+openGramota(buttonKaracheva5,'nastya', 5);
+openGramota(buttonKaracheva6,'nastya', 6);
+openGramota(buttonKaracheva7,'nastya', 7);
+openGramota(buttonKaracheva8,'nastya', 8);
+openGramota(buttonKaracheva9,'nastya', 9);
+openGramota(buttonKaracheva10,'nastya', 10);
+
+openGramota(buttonKaracheva1s,'nastya', 1);
+openGramota(buttonKaracheva2s,'nastya', 2);
+openGramota(buttonKaracheva3s,'nastya', 3);
+openGramota(buttonKaracheva4s,'nastya', 4);
+openGramota(buttonKaracheva5s,'nastya', 5);
+openGramota(buttonKaracheva6s,'nastya', 6);
+openGramota(buttonKaracheva7s,'nastya', 7);
+openGramota(buttonKaracheva8s,'nastya', 8);
+openGramota(buttonKaracheva9s,'nastya', 9);
+openGramota(buttonKaracheva10s,'nastya', 10);
+
+
 
 const swiperSertificate1Inner = document.querySelector('.swiper-sertificate1--inner')
 const swiperSertificate2Inner = document.querySelector('.swiper-sertificate2--inner')
@@ -254,20 +236,17 @@ const swiperSertificate3Inner = document.querySelector('.swiper-sertificate3--in
 						
 	
 
-			const openModal = (triggerSelector, modalDataSelector) => {
-				// const trigger = document.querySelectorAll(triggerSelector)
-				// console.log(trigger);
+			// const openModal = (triggerSelector, modalDataSelector) => {
 				
-				// const modal = document.querySelector(modalDataSelector)
-				if (!triggerSelector || !modalDataSelector) return
-				triggerSelector.forEach(b => b.addEventListener('click', closeParentBlock));
+			// 	if (!triggerSelector || !modalDataSelector) return
+			// 	triggerSelector.forEach(b => b.addEventListener('click', closeParentBlock));
 				
 				
-				function closeParentBlock(e) {
-					e.preventDefault()
-					modalDataSelector.classList.add('active')
-				}
-			}
+			// 	function closeParentBlock(e) {
+			// 		e.preventDefault()
+			// 		modalDataSelector.classList.add('active')
+			// 	}
+			// }
 			openModal(krainovBtns, swiperSertificate1Inner);
 			openModal(molyavkoBtns, swiperSertificate2Inner);
 			openModal(karachevaBtns3s, swiperSertificate3Inner);
@@ -275,17 +254,64 @@ const swiperSertificate3Inner = document.querySelector('.swiper-sertificate3--in
 			
 			crossKrainov.addEventListener('click', () => {
 				swiperSertificate1Inner.classList.remove('active');
-				// location.reload()
+				
 			});
 			crossMolyavko.addEventListener('click', () => {
-				swiperSertificate3Inner.classList.remove('active');
+				swiperSertificate2Inner.classList.remove('active');
 				// location.reload()
 			});
 			crossKaracheva.addEventListener('click', () => {
 				swiperSertificate3Inner.classList.remove('active');
 				// location.reload()
 			});
+
+
+const lupa1 = document.querySelector('.window-button--lupa-kr')
+const lupa2 = document.querySelector('.window-button--lupa-m')
+const lupa3 = document.querySelector('.window-button--lupa-k')
+
+
+
+
+let slideArray1 = Array.from(document.querySelectorAll('.swiper-sertificate1--inner .swiper-slide'))
+let slideArray2 = Array.from(document.querySelectorAll('.swiper-sertificate2--inner .swiper-slide'))
+let slideArray3 = Array.from(document.querySelectorAll('.swiper-sertificate3--inner .swiper-slide'))
+
+slideArray1.forEach(item => {
+  lupa1.addEventListener('click', ()=> {
+    item.firstElementChild.classList.toggle('active');
+
 })
+})
+slideArray2.forEach(item => {
+  lupa2.addEventListener('click', ()=> {
+    item.firstElementChild.classList.toggle('active');
+
+})
+})
+slideArray3.forEach(item => {
+  lupa3.addEventListener('click', ()=> {
+    item.firstElementChild.classList.toggle('active');
+
+})
+})
+
+// lupa1.addEventListener('click', ()=> {
+//   console.log(slideActive);
+//   slideActive.firstElementChild.classList.toggle('active');
+//   slideActive.firstElementChild.innerHTML = ''
+// });
+
+// lupa2.addEventListener('click', ()=> {
+//   console.log(slideActive);
+//   slideActive.firstElementChild.classList.toggle('active');
+// });
+// lupa3.addEventListener('click', ()=> {
+//   console.log(slideActive);
+//   slideActive.firstElementChild.classList.toggle('active');
+// });
+
+
 
 const swiperSertificate1 = new Swiper('.swiper__card-sertificate1', {
   direction: 'horizontal',
@@ -378,40 +404,3 @@ const swiperSertificate1 = new Swiper('.swiper__card-sertificate1', {
   mousewhell: true,
   keyboard: true,
   });
-
-  
-  
-// const swiper6 = new Swiper('.swiper6', {
-//   direction: 'horizontal',
-//   loop: true,
-//   slidesPerView: 1,
-//   spaceBetween: 15,	
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
-  
-  // pagination:	{
-  // 	el: '.swiper-pagination',
-  // 	clickable: true,
-  // },
-//   mousewhell: true,
-//   keyboard: true,
-//   });
-// const swiper7 = new Swiper('.swiper7', {
-//   direction: 'horizontal',
-//   loop: true,
-//   slidesPerView: 1,
-//   spaceBetween: 15,	
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
-  
-  // pagination:	{
-  // 	el: '.swiper-pagination',
-  // 	clickable: true,
-  // },
-  // mousewhell: true,
-  // keyboard: true,
-  // });
