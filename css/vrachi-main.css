@@ -379,7 +379,7 @@ font-size: 16px;
     height: 100vh !important;
    
     object-fit: contain !important;
-    overflow-y: auto !important;
+    overflow: auto !important;
     transition: transform ease 0.5s ;
     -webkit-transition: transform ease 0.5s ;
     -moz-transition: transform ease 0.5s ;
@@ -387,11 +387,11 @@ font-size: 16px;
     -o-transition: transform ease 0.5s ;
 }
   .swiper-slide-active>.footer__swiper--img.active {
-    transform: scale(1.5) translateY(27%);
-    -webkit-transform: scale(1.5) translateY(27%);
-    -moz-transform: scale(1.5) translateY(27%);
-    -ms-transform: scale(1.5) translateY(27%);
-    -o-transform: scale(1.5) translateY(27%);
+    transform: scale(1.5) translateY(15%);
+    -webkit-transform: scale(1.5) translateY(15%);
+    -moz-transform: scale(1.5) translateY(15%);
+    -ms-transform: scale(1.5) translateY(15%);
+    -o-transform: scale(1.5) translateY(15%);
 }
 
 
