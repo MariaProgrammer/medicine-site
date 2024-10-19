@@ -19,6 +19,9 @@
   .ceny-top__inner {
     margin-bottom: 60px;
   }
+  .ceny__title {
+    line-height: 140%;
+  }
 }
 
 @media (max-width: 479.20px) {
