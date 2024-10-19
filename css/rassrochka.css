@@ -1,6 +1,11 @@
+
 .rassrochka__inner {
   margin-top: 20px;
   margin-bottom: 70px;
+}
+.rassrochka__hover-menu {
+  
+  top: 3px;
 }
 .rassrochka__title {
   margin-bottom: 32px;
@@ -26,3 +31,4 @@ li.rassrochka__text {
 .text-margin {
   margin-bottom: 4px;
 }
+
