@@ -148,7 +148,7 @@ const lupa = document.querySelector('.window-button--lupa');
 function openGramota(buttonSelector, name, n, file='png'){
   buttonSelector.addEventListener('click', ()=> {
     specialistWindow.classList.add('active');
-    let img = `<img src="img/doctors/gramoty_${name}/${n}.${file}" class="card-img" width="500" height="auto">`;
+    let img = `<img src="img/doctors/gramoty_${name}/${n}.${file}" class="card-img" width="auto" height="100vh">`;
     elem.innerHTML= img;
   })
 
