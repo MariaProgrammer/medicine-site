@@ -97,6 +97,52 @@ const buttonMolyavko12s = document.querySelector('.molyavko-btn12s')
 const buttonMolyavko13s = document.querySelector('.molyavko-btn13s')
 const buttonMolyavko14s = document.querySelector('.molyavko-btn14s')
 
+const buttonKrainov1slide = document.querySelector('.krainov-btn1slide')
+const buttonKrainov2slide = document.querySelector('.krainov-btn2slide')
+const buttonKrainov3slide = document.querySelector('.krainov-btn3slide')
+const buttonKrainov4slide = document.querySelector('.krainov-btn4slide')
+const buttonKrainov5slide = document.querySelector('.krainov-btn5slide')
+const buttonKrainov6slide = document.querySelector('.krainov-btn6slide')
+const buttonKrainov7slide = document.querySelector('.krainov-btn7slide')
+const buttonKrainov8slide = document.querySelector('.krainov-btn8slide')
+const buttonKrainov9slide = document.querySelector('.krainov-btn9slide')
+const buttonKrainov10slide = document.querySelector('.krainov-btn10slide')
+const buttonKrainov11slide = document.querySelector('.krainov-btn11slide')
+const buttonKrainov12slide = document.querySelector('.krainov-btn12slide')
+const buttonKrainov13slide = document.querySelector('.krainov-btn13slide')
+const buttonKrainov14slide = document.querySelector('.krainov-btn14slide')
+const buttonKrainov15slide = document.querySelector('.krainov-btn15slide')
+const buttonKrainov16slide = document.querySelector('.krainov-btn16slide')
+const buttonKrainov17slide = document.querySelector('.krainov-btn17slide')
+const buttonKrainov18slide = document.querySelector('.krainov-btn18slide')
+const buttonKrainov19slide = document.querySelector('.krainov-btn19slide')
+
+const buttonMolyavko1slide = document.querySelector('.molyavko-btn-1slide')
+const buttonMolyavko2slide = document.querySelector('.molyavko-btn-2slide')
+const buttonMolyavko3slide = document.querySelector('.molyavko-btn-3slide')
+const buttonMolyavko4slide = document.querySelector('.molyavko-btn-4slide')
+const buttonMolyavko5slide = document.querySelector('.molyavko-btn-5slide')
+const buttonMolyavko6slide = document.querySelector('.molyavko-btn-6slide')
+const buttonMolyavko7slide = document.querySelector('.molyavko-btn-7slide')
+const buttonMolyavko8slide = document.querySelector('.molyavko-btn-8slide')
+const buttonMolyavko9slide = document.querySelector('.molyavko-btn-9slide')
+const buttonMolyavko10slide = document.querySelector('.molyavko-btn-10slide')
+const buttonMolyavko11slide = document.querySelector('.molyavko-btn-11slide')
+const buttonMolyavko12slide = document.querySelector('.molyavko-btn-12slide')
+const buttonMolyavko13slide = document.querySelector('.molyavko-btn-13slide')
+const buttonMolyavko14slide = document.querySelector('.molyavko-btn-14slide')
+
+const buttonKaracheva1slide = document.querySelector('.karacheva-btn-1slide')
+const buttonKaracheva2slide = document.querySelector('.karacheva-btn-2slide')
+const buttonKaracheva3slide = document.querySelector('.karacheva-btn-3slide')
+const buttonKaracheva4slide = document.querySelector('.karacheva-btn-4slide')
+const buttonKaracheva5slide = document.querySelector('.karacheva-btn-5slide')
+const buttonKaracheva6slide = document.querySelector('.karacheva-btn-6slide')
+const buttonKaracheva7slide = document.querySelector('.karacheva-btn-7slide')
+const buttonKaracheva8slide = document.querySelector('.karacheva-btn-8slide')
+const buttonKaracheva9slide = document.querySelector('.karacheva-btn-9slide')
+const buttonKaracheva10slide = document.querySelector('.karacheva-btn-10slide')
+
 const lupa = document.querySelector('.window-button--lupa');
 
 function openGramota(buttonSelector, name, n, file='png'){
@@ -169,6 +215,26 @@ openGramota(buttonKrainov17s,'ilya', 17);
 openGramota(buttonKrainov18s,'ilya', 18);
 openGramota(buttonKrainov19s,'ilya', 19);
 
+openGramota(buttonKrainov1slide,'ilya', 1);
+openGramota(buttonKrainov2slide,'ilya', 2);
+openGramota(buttonKrainov3slide,'ilya', 3);
+openGramota(buttonKrainov4slide,'ilya', 4);
+openGramota(buttonKrainov5slide,'ilya', 5);
+openGramota(buttonKrainov6slide,'ilya', 6);
+openGramota(buttonKrainov7slide,'ilya', 7);
+openGramota(buttonKrainov8slide,'ilya', 8);
+openGramota(buttonKrainov9slide,'ilya', 9);
+openGramota(buttonKrainov10slide,'ilya', 10);
+openGramota(buttonKrainov11slide,'ilya', 11);
+openGramota(buttonKrainov12slide,'ilya', 12);
+openGramota(buttonKrainov13slide,'ilya', 13);
+openGramota(buttonKrainov14slide,'ilya', 14);
+openGramota(buttonKrainov15slide,'ilya', 15);
+openGramota(buttonKrainov16slide,'ilya', 16);
+openGramota(buttonKrainov17slide,'ilya', 17);
+openGramota(buttonKrainov18slide,'ilya', 18);
+openGramota(buttonKrainov19slide,'ilya', 19);
+
 openGramota(buttonMolyavko1,'ekaterina', 3, 'jpeg');
 openGramota(buttonMolyavko2,'ekaterina', 4, 'jpeg');
 openGramota(buttonMolyavko3,'ekaterina', 5, 'jpeg');
@@ -200,6 +266,21 @@ openGramota(buttonMolyavko12s,'ekaterina', 14, 'jpeg');
 openGramota(buttonMolyavko13s,'ekaterina', 15, 'jpeg');
 openGramota(buttonMolyavko14s,'ekaterina', 16, 'jpeg');
 
+openGramota(buttonMolyavko1slide,'ekaterina', 3, 'jpeg');
+openGramota(buttonMolyavko2slide,'ekaterina', 4, 'jpeg');
+openGramota(buttonMolyavko3slide,'ekaterina', 5, 'jpeg');
+openGramota(buttonMolyavko4slide,'ekaterina', 6, 'jpeg');
+openGramota(buttonMolyavko5slide,'ekaterina', 7, 'jpeg');
+openGramota(buttonMolyavko6slide,'ekaterina', 8, 'jpeg');
+openGramota(buttonMolyavko7slide,'ekaterina', 9, 'jpeg');
+openGramota(buttonMolyavko8slide,'ekaterina', 10, 'jpeg');
+openGramota(buttonMolyavko9slide,'ekaterina', 11, 'jpeg');
+openGramota(buttonMolyavko10slide,'ekaterina', 12, 'jpeg');
+openGramota(buttonMolyavko11slide,'ekaterina', 13, 'jpeg');
+openGramota(buttonMolyavko12slide,'ekaterina', 14, 'jpeg');
+openGramota(buttonMolyavko13slide,'ekaterina', 15, 'jpeg');
+openGramota(buttonMolyavko14slide,'ekaterina', 16, 'jpeg');
+
 openGramota(buttonKaracheva1,'nastya', 1);
 openGramota(buttonKaracheva2,'nastya', 2);
 openGramota(buttonKaracheva3,'nastya', 3);
@@ -222,17 +303,28 @@ openGramota(buttonKaracheva8s,'nastya', 8);
 openGramota(buttonKaracheva9s,'nastya', 9);
 openGramota(buttonKaracheva10s,'nastya', 10);
 
+openGramota(buttonKaracheva1slide,'nastya', 1);
+openGramota(buttonKaracheva2slide,'nastya', 2);
+openGramota(buttonKaracheva3slide,'nastya', 3);
+openGramota(buttonKaracheva4slide,'nastya', 4);
+openGramota(buttonKaracheva5slide,'nastya', 5);
+openGramota(buttonKaracheva6slide,'nastya', 6);
+openGramota(buttonKaracheva7slide,'nastya', 7);
+openGramota(buttonKaracheva8slide,'nastya', 8);
+openGramota(buttonKaracheva9slide,'nastya', 9);
+openGramota(buttonKaracheva10slide,'nastya', 10);
 
 
-const swiperSertificate1Inner = document.querySelector('.swiper-sertificate1--inner')
-const swiperSertificate2Inner = document.querySelector('.swiper-sertificate2--inner')
-const swiperSertificate3Inner = document.querySelector('.swiper-sertificate3--inner')
-			const krainovBtns = document.querySelectorAll('.krainov-btn')
-			const molyavkoBtns = document.querySelectorAll('.molyavko-btn-1slide')
-			const karachevaBtns3s = document.querySelectorAll('.karacheva-btn-1s')
-			const crossKrainov = document.querySelector('.swiper-button--cross-krainov')
-			const crossMolyavko = document.querySelector('.swiper-button--cross-molyavko')
-			const crossKaracheva = document.querySelector('.swiper-button--cross-karacheva')
+
+// const swiperSertificate1Inner = document.querySelector('.swiper-sertificate1--inner')
+// const swiperSertificate2Inner = document.querySelector('.swiper-sertificate2--inner')
+// const swiperSertificate3Inner = document.querySelector('.swiper-sertificate3--inner')
+// 			const krainovBtns = document.querySelectorAll('.krainov-btn')
+// 			const molyavkoBtns = document.querySelectorAll('.molyavko-btn-1slide')
+// 			const karachevaBtns3s = document.querySelectorAll('.karacheva-btn-1s')
+// 			const crossKrainov = document.querySelector('.swiper-button--cross-krainov')
+// 			const crossMolyavko = document.querySelector('.swiper-button--cross-molyavko')
+// 			const crossKaracheva = document.querySelector('.swiper-button--cross-karacheva')
 						
 	
 
@@ -247,54 +339,54 @@ const swiperSertificate3Inner = document.querySelector('.swiper-sertificate3--in
 			// 		modalDataSelector.classList.add('active')
 			// 	}
 			// }
-			openModal(krainovBtns, swiperSertificate1Inner);
-			openModal(molyavkoBtns, swiperSertificate2Inner);
-			openModal(karachevaBtns3s, swiperSertificate3Inner);
+// 			openModal(krainovBtns, swiperSertificate1Inner);
+// 			openModal(molyavkoBtns, swiperSertificate2Inner);
+// 			openModal(karachevaBtns3s, swiperSertificate3Inner);
 			
 			
-			crossKrainov.addEventListener('click', () => {
-				swiperSertificate1Inner.classList.remove('active');
+// 			crossKrainov.addEventListener('click', () => {
+// 				swiperSertificate1Inner.classList.remove('active');
 				
-			});
-			crossMolyavko.addEventListener('click', () => {
-				swiperSertificate2Inner.classList.remove('active');
-				// location.reload()
-			});
-			crossKaracheva.addEventListener('click', () => {
-				swiperSertificate3Inner.classList.remove('active');
-				// location.reload()
-			});
+// 			});
+// 			crossMolyavko.addEventListener('click', () => {
+// 				swiperSertificate2Inner.classList.remove('active');
+// 				// location.reload()
+// 			});
+// 			crossKaracheva.addEventListener('click', () => {
+// 				swiperSertificate3Inner.classList.remove('active');
+// 				// location.reload()
+// 			});
 
 
-const lupa1 = document.querySelector('.window-button--lupa-kr')
-const lupa2 = document.querySelector('.window-button--lupa-m')
-const lupa3 = document.querySelector('.window-button--lupa-k')
+// const lupa1 = document.querySelector('.window-button--lupa-kr')
+// const lupa2 = document.querySelector('.window-button--lupa-m')
+// const lupa3 = document.querySelector('.window-button--lupa-k')
 
 
 
 
-let slideArray1 = Array.from(document.querySelectorAll('.swiper-sertificate1--inner .swiper-slide'))
-let slideArray2 = Array.from(document.querySelectorAll('.swiper-sertificate2--inner .swiper-slide'))
-let slideArray3 = Array.from(document.querySelectorAll('.swiper-sertificate3--inner .swiper-slide'))
+// let slideArray1 = Array.from(document.querySelectorAll('.swiper-sertificate1--inner .swiper-slide'))
+// let slideArray2 = Array.from(document.querySelectorAll('.swiper-sertificate2--inner .swiper-slide'))
+// let slideArray3 = Array.from(document.querySelectorAll('.swiper-sertificate3--inner .swiper-slide'))
 
-slideArray1.forEach(item => {
-  lupa1.addEventListener('click', ()=> {
-    item.firstElementChild.classList.toggle('active');
+// slideArray1.forEach(item => {
+//   lupa1.addEventListener('click', ()=> {
+//     item.firstElementChild.classList.toggle('active');
 
-})
-})
-slideArray2.forEach(item => {
-  lupa2.addEventListener('click', ()=> {
-    item.firstElementChild.classList.toggle('active');
+// })
+// })
+// slideArray2.forEach(item => {
+//   lupa2.addEventListener('click', ()=> {
+//     item.firstElementChild.classList.toggle('active');
 
-})
-})
-slideArray3.forEach(item => {
-  lupa3.addEventListener('click', ()=> {
-    item.firstElementChild.classList.toggle('active');
+// })
+// })
+// slideArray3.forEach(item => {
+//   lupa3.addEventListener('click', ()=> {
+//     item.firstElementChild.classList.toggle('active');
 
-})
-})
+// })
+// })
 
 // lupa1.addEventListener('click', ()=> {
 //   console.log(slideActive);
