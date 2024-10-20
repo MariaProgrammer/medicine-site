@@ -3,7 +3,7 @@
     display: none;
   }
   .hero__inner--services {
-    padding-top: 12px;    
+    align-items: flex-start;  
   }
   
   .services__inner-wrap {
