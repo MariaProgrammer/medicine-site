@@ -1,3 +1,8 @@
+.ramka-links--margin {
+  margin-bottom: 18px;
+
+}
+
 .ceny-top {
   padding-bottom: 0;
 }
@@ -9,9 +14,9 @@
 .ceny__title {
   font-weight: 600;
   font-size: 34px;
-  
+  line-height: 140%;
   color: var(--txt-black);
-  margin-top: 12px;
+  
   
 }
 

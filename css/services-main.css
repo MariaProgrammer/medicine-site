@@ -12,7 +12,7 @@
   margin-bottom: 32px;
 }
 
-.service-item {
+/* .service-item {
   padding: 2px 4px;
   height: auto;
   width: auto;
@@ -28,7 +28,7 @@
 .service-item--last {
   color: var(--new-main);
   border: 1px solid var(--new-main);
-}
+} */
 .hero__inner--services {
   display: flex;
   align-items: center;
@@ -45,12 +45,7 @@
   
 
 }
-.hero__ramka-links {
-  display: flex;
-  margin-bottom: 18px;
 
-  
-}
 .hero__inner-right--services {
   max-width: 430px;
   padding: 0px 60px;

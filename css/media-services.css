@@ -29,6 +29,9 @@
     .about__service__inner {
       margin-bottom: 60px;
     }
+    .services__inner-wrap {
+      padding-top: 0;
+    }
 }
 
 @media (max-width: 767.20px) {
@@ -113,11 +116,16 @@
     margin-bottom: 32px;
   }
   
-  .price-item__tsena {
-    /* text-align: left; */
+  
+  .item__tsena {
+    text-align: left;
   }
   .price-item__tsena--ceny {
     text-align: left;
+  }
+
+  .price-item--services {
+    flex-direction: column;
   }
   
   

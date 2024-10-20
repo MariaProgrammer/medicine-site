@@ -18,7 +18,7 @@
   margin-bottom: 18px;
 }
 .article__submenu-list {
-  margin-bottom: 36px;
+  margin-bottom: 30px;
   max-width: 188px;
   
 }
@@ -27,7 +27,7 @@
 font-size: 34px;
 opacity: 0.8;
 margin-bottom: 12px;
-line-height: 130%;
+line-height: 110%;
 }
 .article__subtitle {
   font-weight: 600;
@@ -42,6 +42,7 @@ margin-bottom: 12px;
 font-size: 16px;
 margin-bottom: 6px;
 
+
 }
 .article__content-item:hover, .article__content-item:active {
   color: var(--new-main);
@@ -55,7 +56,11 @@ margin-bottom: 6px;
 }
 
 .article__content-link {
+  display: flex;
+  /* padding-left: 30px; */
 }
+
+
 .article__text {
   max-width: 720px;
   font-weight: 400;

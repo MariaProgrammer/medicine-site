@@ -48,6 +48,9 @@
   } */
 }
 @media (max-width: 479.20px) {
+  .article__title {
+    font-size: 24px;
+  }
   .article__card-img-wrap {
     height: 192px;
   }
