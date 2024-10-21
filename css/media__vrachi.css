@@ -17,6 +17,9 @@
   }
 }
 @media (max-width: 767.20px) {
+  .vrachi__links-box {
+    padding-bottom: 0;
+  }
   .vrachi__card {
     flex-direction: column;
     align-items: flex-start;
@@ -41,6 +44,9 @@
 }
 
 @media (max-width: 479.20px) {
+  .vrachi__card-title {
+    font-size: 24px;
+  }
   .text-right {
     margin-bottom: 0;
   }

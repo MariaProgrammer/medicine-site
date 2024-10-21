@@ -8,7 +8,7 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   
-  padding: 32px 0 16px 0;
+  /* padding: 32px 0 16px 0; */
   position: relative;
   display: flex;
   flex-wrap: nowrap;
@@ -50,6 +50,9 @@
   border: 1px solid var(--new-main);
   color: var(--new-main);  
   
+}
+.vrachi__links-box {
+  padding-bottom: 20px;
 }
 
 

@@ -13,6 +13,9 @@
   .article__navigation-desctop {
     display: none;
   } */
+  .article__ramka-links {
+    gap: 12px;
+  }
   
   .article__cards {   
     grid-template-columns: repeat(2, 1fr);

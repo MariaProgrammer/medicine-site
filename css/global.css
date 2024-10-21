@@ -470,3 +470,7 @@ button:active {
   z-index: 900;
 
 }
+
+.kontakty__links-box {
+  margin-bottom: 20px;
+}

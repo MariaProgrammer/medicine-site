@@ -21,9 +21,7 @@
 }
 
 @media (max-width: 767.20px) {
-  .ceny-top__inner {
-    margin-bottom: 60px;
-  }
+  
   .ceny__title {
     line-height: 140%;
   }

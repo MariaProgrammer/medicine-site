@@ -1,4 +1,8 @@
 /* hero */
+.hero__ramka-links--margin {
+  margin-bottom: 0;
+}
+
 .hero__inner-wrap {
   margin-bottom: 70px;
   margin-top: 32px;
@@ -31,7 +35,7 @@
 } */
 .hero__inner--services {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
 }
 
@@ -284,3 +288,6 @@ color: var(--new-main);
   font-size: 12px;
   padding-right: 12px;
 }
+
+
+

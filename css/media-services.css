@@ -128,6 +128,9 @@
     flex-direction: column;
   }
   
+  .otzyvy-top {
+    padding-bottom: 18px;
+  }
   
 }
 @media (max-width: 479.20px) {

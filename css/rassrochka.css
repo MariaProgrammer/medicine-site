@@ -1,11 +1,21 @@
 
 .rassrochka__inner {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-bottom: 70px;
 }
 .rassrochka__hover-menu {
   
   top: 3px;
+}
+
+.rassrochka__links-box {
+  margin-bottom: 20px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+  
 }
 .rassrochka__title {
   margin-bottom: 32px;
