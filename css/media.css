@@ -428,6 +428,10 @@
   display: block;
 
 }
+.form {
+  margin-top: 24px;
+  margin-bottom: 0;
+}
 .form__hero {
   flex-direction: column;
   width: 100%;
@@ -442,7 +446,7 @@
 
 .form__input {
   margin-right: 0;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 
@@ -577,10 +581,14 @@
     max-width: 100%;
     width: 100%;
   }
-  .form {
+  .hero__contacts--addr {
+    font-size: 14px;
+  }
+   
+  /* .form {
     margin-top: 24px;
     margin-bottom: 24px;
-  }
+  } */
   .nav__header-contacts {
     display: flex;
     flex-direction: column;
@@ -741,9 +749,13 @@
 
   .question__form {
     gap: 12px;
+    margin-top: 0;
   }  
   .question__inner {
     margin-bottom: 32px;
+  }
+  .question__inner-title {
+    max-width: 100%;
   }
   .address__inner {
     margin-bottom: 32px;
@@ -766,7 +778,7 @@
     width: 100%;
   }
   .ramka {
-    padding: 24px 24px 30px 24px;
+    padding: 24px 12px 30px 12px;
   }
   .ramka-services {
     display: block;
