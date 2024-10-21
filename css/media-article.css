@@ -83,6 +83,27 @@
   .article__more-img {   
      height: 192px;
    }
+   .article__text {
+    font-size: 14px;
+    line-height: 19px;
+   }
+   .article__content-item {
+    font-size: 14px;
+    line-height: 19px;
+
+   }
+   .list-item--font {
+    font-size: 14px;
+    line-height: 19px;
+
+   }
+   .article__sublist-item {
+    font-size: 14px;
+    line-height: 19px;
+   }
+   .article__text {
+    margin-bottom: 12px;
+   }
 }
 
   

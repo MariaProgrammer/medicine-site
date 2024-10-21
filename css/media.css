@@ -385,6 +385,12 @@
   font-size: 14px;
 }
 
+.swiper3 {
+  display: none;
+}
+.swiper767 {
+  display: block;
+}
 
 .footer__burger {
     

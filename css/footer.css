@@ -456,6 +456,10 @@ margin-bottom: 4px;
   overflow: auto !important;
 }
 
+.about__clinica:hover, .about__clinica:active {
+  cursor: default;
+}
+
 
 
 
