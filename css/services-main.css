@@ -272,6 +272,7 @@ font-size: 16px;
 
 }
 .price-item__tsena {
+  font-family: "Open Sans";
   width: 170px;
   text-align: right;
   font-weight: 700;
