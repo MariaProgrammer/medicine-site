@@ -109,7 +109,10 @@ color: var(--txt-black);
   font-weight: 400;
 }
 .service-form {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+}
+.input__wrap-service {
+ padding-bottom: 30px;
 }
 .service-text--udalenie {
   font-weight: 400;

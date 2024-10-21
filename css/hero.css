@@ -11,6 +11,7 @@
   
 }
 .hero__inner-left {  
+  height: 100%;
   padding: 30px 30px 60px 30px;
   
  
@@ -129,7 +130,7 @@ cursor: pointer;
 .hero__contacts {
   max-width: 1140px;
   margin: 0 auto;
-  height: 40px;
+  /* height: 40px; */
   display: flex;
   align-items: center;
   justify-content: flex-start;  
@@ -163,6 +164,10 @@ font-size: 16px;
 .hero__contacts--addr {
   font-size: 16px;
   font-weight: 400;
+}
+a.hero__contacts--addr:hover {
+  cursor: pointer;
+  color: var(--new-main);
 }
 
 .right-wrap {

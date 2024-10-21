@@ -5,7 +5,9 @@
   .hero__inner--services {
     align-items: flex-start;  
   }
-  
+  .input__wrap-service {
+    padding-bottom: 0;
+   }
   .services__inner-wrap {
     width: 100%;
     max-width: 100%;
@@ -130,6 +132,9 @@
   
   .otzyvy-top {
     padding-bottom: 18px;
+  }
+  .service-form {
+    margin-bottom: 24px;
   }
   
 }

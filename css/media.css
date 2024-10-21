@@ -429,14 +429,14 @@
 
 }
 .form {
-  margin-top: 24px;
+  margin-top: 30px;
   margin-bottom: 0;
 }
 .form__hero {
   flex-direction: column;
   width: 100%;
   max-width: 100%;
-  margin-bottom: 24px; 
+  /* margin-bottom: 30px;  */
 }
 
 .form__input, .hero__button {
@@ -603,6 +603,12 @@
   }
   .hero__inner-left {
     padding-bottom: 30px;
+  }
+  .form {
+    margin-top: 24px;
+  }
+  .form__hero {
+    margin-bottom: 24px;
   }
   
   .services__accordion-item--link {
